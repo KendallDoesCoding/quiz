@@ -91,6 +91,14 @@ let questions = [
         choice4: '5 million',
         answer: 3
     },
+    {
+        question: 'Who painted the Mona Lisa?,
+        choice1: 'Pablo Picasso',
+        choice2: 'Raphael',
+        choice3: 'Vincent van Gogh',
+        choice4: 'Leonardo da Vinci',
+        answer: 4
+    }
 
 ]
 
