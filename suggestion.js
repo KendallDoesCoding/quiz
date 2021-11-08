@@ -1,14 +1,16 @@
 // We enclose this in window.onload.
 // So we don't have ridiculous errors.
 window.onload = function() {
-    const firebaseConfig = {
-        apiKey: "AIzaSyCWAQWGh_OkaxukoBt8DZnvoCbmuVjM9PE",
-        authDomain: "chat-app-d9e56.firebaseapp.com",
-        projectId: "chat-app-d9e56",
-        storageBucket: "chat-app-d9e56.appspot.com",
-        messagingSenderId: "134598616336",
-        appId: "1:134598616336:web:3fee84cd97e7f82d49f195",
-        measurementId: "G-3L99NS53NE"
+const firebaseConfig = {
+  apiKey: "AIzaSyCWAQWGh_OkaxukoBt8DZnvoCbmuVjM9PE",
+  authDomain: "chat-app-d9e56.firebaseapp.com",
+  databaseURL: "https://chat-app-d9e56-default-rtdb.firebaseio.com",
+  projectId: "chat-app-d9e56",
+  storageBucket: "chat-app-d9e56.appspot.com",
+  messagingSenderId: "134598616336",
+  appId: "1:134598616336:web:08ee34ce89a438fa49f195",
+  measurementId: "G-91JE9VJ88Z"
+};
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
@@ -39,7 +41,7 @@ window.onload = function() {
   
         var title = document.createElement('h1')
         title.setAttribute('id', 'title')
-        title.textContent = 'Kendall s Chat App'
+        title.textContent = 'Question Suggestion'
   
         title_inner_container.append(title)
         title_container.append(title_inner_container)
