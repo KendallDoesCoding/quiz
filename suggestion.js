@@ -2,13 +2,12 @@
 // So we don't have ridiculous errors.
 window.onload = function() {
     const firebaseConfig = {
-        apiKey: "AIzaSyCWAQWGh_OkaxukoBt8DZnvoCbmuVjM9PE",
-        authDomain: "chat-app-d9e56.firebaseapp.com",
-        projectId: "chat-app-d9e56",
-        storageBucket: "chat-app-d9e56.appspot.com",
-        messagingSenderId: "134598616336",
-        appId: "1:134598616336:web:3fee84cd97e7f82d49f195",
-        measurementId: "G-3L99NS53NE"
+      apiKey: "AIzaSyBaBx3kSc0qDoF_lXXfXq9nJo7iPs6smKg",
+      authDomain: "question-suggestions.firebaseapp.com",
+      projectId: "question-suggestions",
+      storageBucket: "question-suggestions.appspot.com",
+      messagingSenderId: "616747024748",
+      appId: "1:616747024748:web:7da3164d80e1e1b6c93349"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
