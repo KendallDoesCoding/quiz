@@ -127,7 +127,7 @@ let questions = [
         question: 'Which planet is closest to the sun?',
         choice1: 'Mars',
         choice2: 'Earth',
-        choice3: 'Saturn',
+        choice3: 'Mercury',
         choice4: 'Venus',
         answer: 3
     },
