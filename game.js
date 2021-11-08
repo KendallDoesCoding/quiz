@@ -91,14 +91,13 @@ let questions = [
         choice4: '5 million',
         answer: 3
     },
-    {
-        question: 'Who painted the Mona Lisa?,
-        choice1: 'Pablo Picasso',
-        choice2: 'Raphael',
-        choice3: 'Vincent van Gogh',
-        choice4: 'Leonardo da Vinci',
-        answer: 4
-    }
+        question: 'What is the population of Switzerland?',
+        choice1: '3.5 million',
+        choice2: '10 million',
+        choice3: '8.6 million',
+        choice4: '5 million',
+        answer: 3
+    },
 
 ]
 
