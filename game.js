@@ -104,7 +104,7 @@ let questions = [
         choice1: 'United States of America',
         choice2: 'Russia',
         choice3: 'Belgium',
-        choice4: 'Italy,
+        choice4: 'Italy',
         answer: 2
     },
     {
@@ -112,7 +112,7 @@ let questions = [
         choice1: 'Schitts Creek',
         choice2: 'Supernatural',
         choice3: 'The Blacklist',
-        choice4: 'The Vampire Diaries,
+        choice4: 'The Vampire Diaries',
         answer: 1
     },
     {
@@ -120,7 +120,7 @@ let questions = [
         choice1: '2',
         choice2: '5',
         choice3: '4',
-        choice4: '0,
+        choice4: '0',
         answer: 4
     },
     {
@@ -128,7 +128,7 @@ let questions = [
         choice1: 'Mars',
         choice2: 'Earth',
         choice3: 'Mercury',
-        choice4: 'Saturn,
+        choice4: 'Saturn',
         answer: 3
     }
 ]
