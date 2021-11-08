@@ -91,6 +91,14 @@ let questions = [
         choice4: '5 million',
         answer: 3
     },
+    {
+        question: 'What is the population of Switzerland? - test',
+        choice1: '3.5 million',
+        choice2: '10 million',
+        choice3: '8.6 million',
+        choice4: '5 million',
+        answer: 2
+    },
 
 ]
 
