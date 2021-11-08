@@ -130,10 +130,7 @@ let questions = [
         choice3: 'Mercury',
         choice4: 'Saturn,
         answer: 3
-    },
-    
-
-
+    }
 ]
 
 const SCORE_POINTS = 100
