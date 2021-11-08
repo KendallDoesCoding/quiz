@@ -97,6 +97,10 @@ h2{
     background: linear-gradient(90deg, rgba(86,233,103,1) 255%, rgba(39,198,57,1) 255%);
 }
 
+#music-btn {
+    background: linear-gradient(90deg, rgba(255,151,32,1) 255%, rgba(255,137,1,1) 255%);
+}
+
 .fa-crown {
     font-size: 2.5rem;
     margin-left: 1rem;
