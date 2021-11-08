@@ -1,16 +1,15 @@
 // We enclose this in window.onload.
 // So we don't have ridiculous errors.
 window.onload = function() {
-const firebaseConfig = {
-  apiKey: "AIzaSyBaBx3kSc0qDoF_lXXfXq9nJo7iPs6smKg",
-  authDomain: "question-suggestions.firebaseapp.com",
-  databaseURL: "https://question-suggestions-default-rtdb.firebaseio.com",
-  projectId: "question-suggestions",
-  storageBucket: "question-suggestions.appspot.com",
-  messagingSenderId: "616747024748",
-  appId: "1:616747024748:web:7da3164d80e1e1b6c93349"
-};
-    Initialize Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyBaBx3kSc0qDoF_lXXfXq9nJo7iPs6smKg",
+      authDomain: "question-suggestions.firebaseapp.com",
+      projectId: "question-suggestions",
+      storageBucket: "question-suggestions.appspot.com",
+      messagingSenderId: "616747024748",
+      appId: "1:616747024748:web:7da3164d80e1e1b6c93349"
+    };
+    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     // This is very IMPORTANT!! We're going to use "db" a lot.
     var db = firebase.database()
