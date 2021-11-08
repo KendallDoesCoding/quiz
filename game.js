@@ -91,50 +91,11 @@ let questions = [
         choice4: '5 million',
         answer: 3
     },
-    {
-        question: 'Who painted the Mona Lisa?,
-        choice1: 'Michelangelo',
-        choice2: 'Raphael',
-        choice3: 'Vincent van Gogh',
-        choice4: 'Leonardo da Vinci',
-        answer: 4
-    },
-    {
-        question: 'What is the largest country in the World?,
-        choice1: 'United States of America',
-        choice2: 'Russia',
-        choice3: 'Belgium',
-        choice4: 'Italy',
-        answer: 2
-    },
-    {
-        question: 'What was the most streamed show on Netflix in 2020?,
-        choice1: 'Schitts Creek',
-        choice2: 'Supernatural',
-        choice3: 'The Blacklist',
-        choice4: 'The Vampire Diaries',
-        answer: 1
-    },
-    {
-        question: 'How many bones does a shark have?,
-        choice1: '2',
-        choice2: '5',
-        choice3: '4',
-        choice4: '0',
-        answer: 4
-    },
-    {
-        question: 'Which planet is closest to the sun?,
-        choice1: 'Mars',
-        choice2: 'Earth',
-        choice3: 'Mercury',
-        choice4: 'Saturn',
-        answer: 3
-    }
+
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 15
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
