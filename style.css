@@ -90,7 +90,11 @@ h2{
 }
 
 #rules-btn {
-    background: linear-gradient(90deg, rgba(239,116,75,1) 255%, rgba(75,239,94,1) 255%);
+    background: linear-gradient(90deg, rgba(218,30,234,1) 255%, rgba(218,30,234,1) 255%);
+}
+
+#suggestion-btn {
+    background: linear-gradient(90deg, rgba(86,233,103,1) 255%, rgba(39,198,57,1) 255%);
 }
 
 .fa-crown {
