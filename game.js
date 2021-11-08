@@ -12,11 +12,11 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'Who owns the company "Microsoft?',
-        choice1: 'Steve Jobs',
-        choice2: 'Bill Gates',
-        choice3: 'Mark Zuckerberg',
-        choice4: 'A random guy in the dustbin!',
+        question: 'From which country do French fries originate?',
+        choice1: 'Italy',
+        choice2: 'Belgium',
+        choice3: 'United States of America',
+        choice4: 'India',
         answer: 2
     },
     {
