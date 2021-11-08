@@ -90,8 +90,8 @@ h2{
 }
 
 #rules-btn {
-background: ef744b
-
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,239,94,1) 35%, rgba(0,212,255,1) 100%);
+}
 
 .fa-crown {
     font-size: 2.5rem;
