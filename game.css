@@ -2,6 +2,10 @@ body {
     color: #fff;
 }
 
+word-wrap: break-word
+overflow-wrap: break-word; 
+
+
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
