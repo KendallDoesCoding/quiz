@@ -44,11 +44,11 @@ let questions = [
         answer: 4
     },
     {
-        question: 'What is the smallest country in the world?',
-        choice1: 'Rome',
-        choice2: 'India',
-        choice3: 'Vatican City',
-        choice4: 'Italy',
+        question: 'About how many taste buds does the average human tongue have?',
+        choice1: '2,000',
+        choice2: '5,000',
+        choice3: '10,000',
+        choice4: '20,000',
         answer: 3
     },
     {
@@ -92,11 +92,11 @@ let questions = [
         answer: 3
     },
     {
-        question: 'Who painted the Mona Lisa?',
-        choice1: 'Michelangelo',
-        choice2: 'Raphael',
-        choice3: 'Vincent van Gogh',
-        choice4: 'Leonardo da Vinci',
+        question: 'In what state did the first official American baseball game take place?',
+        choice1: 'Florida',
+        choice2: 'North Carolina',
+        choice3: 'New York',
+        choice4: 'New Jersey',
         answer: 4
     },
     {
