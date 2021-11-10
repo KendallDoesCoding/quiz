@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form2</title>
+    <title>Contact Form</title>
 </head>
 <body>
      <h1 style="color: green;"> 
-    Reach out to Kendall2
+    Reach out to me (Kendall Pinto)
              </h1>
      <p style ="color: gold;">
      Please note - Entering both a phone number and a email, isn't compulsory.
@@ -16,15 +16,14 @@
      <p style ="color: gold;">
      Although, we request you to either put a phone number or a email for us to contact you back.... We recommend putting an email though because it will give you a confirmation email.
           </p>
+    
 
 
-
-    <form action="https://formsubmit.co/kendall@kendalldoescoding.gq" method="POST">
+    <form action="https://formsubmit.co/contact@kendalldoescoding.gq" method="POST">
 
         <input type="email" name="email" placeholder="Email Address" required">
         <input type="hidden" name="_subject" value="New submission! You better check it quickly!!!">
         <input type="hidden" name="_webhook" value="https://webhook.site/60cef1de-300c-44de-8a98-3ea09adf458b">
-        <input type="hidden" name="_next" value="https://contact1.thankyou.kendalldoescoding.gq">
         <input type="text" name="name"  placeholder="Write your name here" required>
         <input type="text" name="messege"  placeholder="Write your messege here" required>
         <input type="text" name="phone"  placeholder="Phone Number">  
