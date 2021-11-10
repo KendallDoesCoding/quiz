@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>Contact Form2</title>
 </head>
 <body>
      <h1 style="color: green;"> 
-    Reach out to Kendall
+    Reach out to Kendall2
              </h1>
      <p style ="color: gold;">
      Please note - Entering both a phone number and a email, isn't compulsory.
@@ -19,7 +19,7 @@
 
 
 
-    <form action="https://formsubmit.co/contact@kendalldoescoding.gq" method="POST">
+    <form action="https://formsubmit.co/kendall@kendalldoescoding.gq" method="POST">
 
         <input type="email" name="email" placeholder="Email Address" required">
         <input type="hidden" name="_subject" value="New submission! You better check it quickly!!!">
