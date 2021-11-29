@@ -109,6 +109,10 @@ h2{
     background: linear-gradient(90deg, rgba(255,81,81,1) 255%, rgba(255,81,81,1) 255%);
 }
 
+#christmas-btn {
+    background: linear-gradient(90deg, rgba(255,151,32,1) 255%, rgba(255,137,1,1) 255%);
+}
+
 .fa-crown {
     font-size: 2.5rem;
     margin-left: 1rem;
