@@ -81,6 +81,10 @@ h2{
     transform: none;
 }
 
+#topics-btn {
+    background: linear-gradient(90deg, rgba(238,255,67,1) 255%, rgba(238,255,67,1) 255%);
+}
+
 #highscore-btn {
     background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
 }
