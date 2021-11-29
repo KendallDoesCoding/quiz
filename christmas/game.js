@@ -57,7 +57,7 @@ let questions = [
         choice2: 'Jingle Bells by James Lord Pierpont',
         choice3: 'We Wish You A Merry Christmas by Arthur Sydney Warrell',
         choice4: 'The Little Drummer Boy by Harry Simeone and Katherine Kennicott Davis',
-        answer: 4
+        answer: 2
     },
     {
         question: 'Name the first US president who decorated the Christmas tree at the White House',
