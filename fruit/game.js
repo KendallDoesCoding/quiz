@@ -12,12 +12,12 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'Which popular Christmas beverage is also called “milk punch?',
-        choice1: 'Eggnog',
-        choice2: 'Hot Toddy',
-        choice3: 'Cranberry-Apple Cider Punch',
-        choice4: 'Wassail',
-        answer: 1
+        question: 'Where was the kiwi fruit first grown?',
+        choice1: 'New Zealand',
+        choice2: 'China',
+        choice3: 'Australia',
+        choice4: 'Chile',
+        answer: 2
     },
     {
         question: 'In Home Alone, where are the McCallisters going on vacation when they leave Kevin behind?',
