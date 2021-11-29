@@ -20,76 +20,76 @@ let questions = [
         answer: 1
     },
     {
-        question: 'What does "perro" mean in English?',
-        choice1: 'Cat',
-        choice2: 'Cheese',
-        choice3: 'Dog',
-        choice4: 'Rat',
-        answer: 3
-    },
-    {
-        question: 'Which of these is the best home-remedy to reduce the appearance of acne scars?',
-        choice1: 'Yogurt',
-        choice2: 'Turmeric',
-        choice3: 'Baking Soda',
-        choice4: 'Vinegar',
-        answer: 1
-    },
-    {
-        question: 'Which country invented tea?',
+        question: 'In Home Alone, where are the McCallisters going on vacation when they leave Kevin behind?',
         choice1: 'United States of America',
-        choice2: 'Italy',
-        choice3: 'Denmark',
-        choice4: 'China',
+        choice2: 'Japan',
+        choice3: 'Dubai',
+        choice4: 'Paris',
         answer: 4
     },
     {
-        question: 'About how many taste buds does the average human tongue have?',
-        choice1: '2,000',
-        choice2: '5,000',
-        choice3: '10,000',
-        choice4: '20,000',
-        answer: 3
-    },
-    {
-        question: 'What is the symbol for potassium?',
-        choice1: 'U',
-        choice2: 'Kr',
-        choice3: 'P',
-        choice4: 'K',
-        answer: 4
-    },
-    {
-        question: 'What year was the very first model of the iPhone released?',
-        choice1: '2003',
-        choice2: '2007',
-        choice3: '2006',
-        choice4: '2010',
+        question: 'Which country did eggnog come from?',
+        choice1: 'India',
+        choice2: 'England',
+        choice3: 'United States of America',
+        choice4: 'France',
         answer: 2
     },
     {
-        question: 'How long have snakes been roaming Earth?',
-        choice1: '128 million years',
-        choice2: '3 million years',
-        choice3: '50 million years',
-        choice4: '100 million years',
+        question: 'How do you say “Merry Christmas” in Spanish?',
+        choice1: 'Feliz Navidad',
+        choice2: 'Felices Fiestas',
+        choice3: 'Que pases lindo esta navidad',
+        choice4: 'Mis mejores deseos para esta navidad',
         answer: 1
     },
     {
-        question: 'What color do about 75 percent of national flags contain?',
-        choice1: 'Blue',
-        choice2: 'Yellow',
-        choice3: 'Green',
-        choice4: 'Red',
+        question: 'Which country started the tradition of putting up a Christmas tree?',
+        choice1: 'Belgium',
+        choice2: 'France',
+        choice3: 'Germany',
+        choice4: 'Brazil',
+        answer: 3
+    },
+    {
+        question: 'What popular Christmas song was actually written for Thanksgiving?',
+        choice1: 'Silent Night by Franz Xaver Gruber',
+        choice2: 'Jingle Bells by James Lord Pierpont',
+        choice3: 'We Wish You A Merry Christmas by Arthur Sydney Warrell',
+        choice4: 'The Little Drummer Boy by Harry Simeone and Katherine Kennicott Davis',
         answer: 4
     },
     {
-        question: 'What is the population of Switzerland?',
-        choice1: '3.5 million',
-        choice2: '10 million',
-        choice3: '8.6 million',
-        choice4: '5 million',
+        question: 'Name the first US president who decorated the Christmas tree at the White House',
+        choice1: 'James Madison',
+        choice2: 'Franklin Pierce',
+        choice3: 'Rutherford B Hayes',
+        choice4: 'John Adams',
+        answer: 2
+    },
+    {
+        question: 'What does the red color of Christmas symbolize?',
+        choice1: 'Blood of Jesus',
+        choice2: 'Santa Claus',
+        choice3: 'Holly Berries',
+        choice4: 'Strawberries',
+        answer: 1
+    },
+    {
+        question: 'hich country sends a huge Christmas tree to London, every year?',
+        choice1: 'Denmark',
+        choice2: 'Spain',
+        choice3: 'Norway',
+        choice4: 'Netherlands',
         answer: 3
+    },
+    {
+        question: 'When is Christmas celebrated in Russia?',
+        choice1: '15th December',
+        choice2: '15th Feburary',
+        choice3: '25th December',
+        choice4: '7th January',
+        answer: 4
     },
     {
         question: 'In what state did the first official American baseball game take place?',
