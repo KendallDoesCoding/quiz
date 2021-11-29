@@ -1,4 +1,4 @@
-<h1> Fruit Quiz Game
+<h1> Fruit Quiz Game </h1>
   
 This is my quiz topic about fruits.
 
