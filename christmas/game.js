@@ -76,7 +76,7 @@ let questions = [
         answer: 1
     },
     {
-        question: 'hich country sends a huge Christmas tree to London, every year?',
+        question: 'Which country sends a huge Christmas tree to London, every year?',
         choice1: 'Denmark',
         choice2: 'Spain',
         choice3: 'Norway',
@@ -92,44 +92,44 @@ let questions = [
         answer: 4
     },
     {
-        question: 'In what state did the first official American baseball game take place?',
-        choice1: 'Florida',
-        choice2: 'North Carolina',
-        choice3: 'New York',
-        choice4: 'New Jersey',
-        answer: 4
-    },
-    {
-        question: 'What is the largest country in the World?',
-        choice1: 'United States of America',
-        choice2: 'Russia',
-        choice3: 'Belgium',
-        choice4: 'Italy',
+        question: 'In which year was Christmas banned in Boston?',
+        choice1: '1630',
+        choice2: '1659',
+        choice3: '1840',
+        choice4: '1910',
         answer: 2
     },
     {
-        question: 'What was the most streamed show on Netflix in 2020?',
-        choice1: 'Schitts Creek',
-        choice2: 'Supernatural',
-        choice3: 'The Blacklist',
-        choice4: 'The Vampire Diaries',
+        question: 'Which country celebrates its Independence day on Christmas Eve every year?',
+        choice1: 'Libya',
+        choice2: 'Syria',
+        choice3: 'Lebanon',
+        choice4: 'Algeria',
         answer: 1
     },
     {
-        question: 'How many bones does a shark have?',
-        choice1: '2',
-        choice2: '5',
-        choice3: '4',
-        choice4: '0',
+        question: 'How many packages are shipped every year?',
+        choice1: '50 million',
+        choice2: '210 million',
+        choice3: '625 million',
+        choice4: '850 million',
         answer: 4
     },
     {
-        question: 'Which planet is closest to the sun?',
-        choice1: 'Mars',
-        choice2: 'Earth',
-        choice3: 'Mercury',
-        choice4: 'Venus',
+        question: 'Which country did St. Nicholas belong to?',
+        choice1: 'Spain',
+        choice2: 'Italy',
+        choice3: 'Greece',
+        choice4: 'Turkey',
         answer: 3
+    },
+    {
+        question: 'Which Country celebrates Christmas on 24 December?',
+        choice1: 'Portugal',
+        choice2: 'Spain',
+        choice3: 'United Kingdom',
+        choice4: 'Australia',
+        answer: 1
     },
 
 ]
