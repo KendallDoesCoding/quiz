@@ -11,5 +11,5 @@ I made this quiz, following a youtube tutorial online by Brian Designs.
 <p>Link of Christmas Quiz website: https://kendalldoescoding.gq/christmasquiz</p>
 
 Thanks for your support,
-<h1>Kendall Does Coding
-kendall@kendalldoescoding.gq</h1>
+<h1>Kendall Does Coding</h1>
+<h2>kendall@kendalldoescoding.gq</h2>
