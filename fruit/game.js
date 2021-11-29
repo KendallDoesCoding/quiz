@@ -20,122 +20,81 @@ let questions = [
         answer: 2
     },
     {
-        question: 'In Home Alone, where are the McCallisters going on vacation when they leave Kevin behind?',
-        choice1: 'United States of America',
-        choice2: 'Japan',
-        choice3: 'Dubai',
-        choice4: 'Paris',
-        answer: 4
-    },
-    {
-        question: 'Which country did eggnog come from?',
-        choice1: 'India',
-        choice2: 'England',
-        choice3: 'United States of America',
-        choice4: 'France',
-        answer: 2
-    },
-    {
-        question: 'How do you say “Merry Christmas” in Spanish?',
-        choice1: 'Feliz Navidad',
-        choice2: 'Felices Fiestas',
-        choice3: 'Que pases lindo esta navidad',
-        choice4: 'Mis mejores deseos para esta navidad',
-        answer: 1
-    },
-    {
-        question: 'Which country started the tradition of putting up a Christmas tree?',
-        choice1: 'Belgium',
-        choice2: 'France',
-        choice3: 'Germany',
-        choice4: 'Brazil',
+        question: 'What percentage of the watermelon is water?',
+        choice1: '64%',
+        choice2: '39%',
+        choice3: '92%',
+        choice4: '80%',
         answer: 3
     },
     {
-        question: 'What popular Christmas song was actually written for Thanksgiving?',
-        choice1: 'Silent Night by Franz Xaver Gruber',
-        choice2: 'Jingle Bells by James Lord Pierpont',
-        choice3: 'We Wish You A Merry Christmas by Arthur Sydney Warrell',
-        choice4: 'The Little Drummer Boy by Harry Simeone and Katherine Kennicott Davis',
+        question: 'What do apple pipes contain?',
+        choice1: 'Cyanide',
+        choice2: 'Juice',
+        choice3: 'Sodium',
+        choice4: 'Vitamin H',
+        answer: 1
+    },
+    {
+        question: 'What is the other name for Chinese Gooseberry?',
+        choice1: 'Plum',
+        choice2: 'Lime',
+        choice3: 'Cherry',
+        choice4: 'Kiwi',
+        answer: 4
+    },
+    {
+        question: 'There is a museum in Belgium dedicated to',
+        choice1: 'Papya',
+        choice2: 'Strawberries',
+        choice3: 'Cherry',
+        choice4: 'Pear',
         answer: 2
     },
     {
-        question: 'Name the first US president who decorated the Christmas tree at the White House',
-        choice1: 'James Madison',
-        choice2: 'Franklin Pierce',
-        choice3: 'Rutherford B Hayes',
-        choice4: 'John Adams',
-        answer: 2
+        question: 'The only fruit to have seeds on the outside is?',
+        choice1: 'Strawberry',
+        choice2: 'Lychee',
+        choice3: 'Pineapple',
+        choice4: 'Raspberry',
+        answer: 1
     },
     {
-        question: 'What does the red color of Christmas symbolize?',
-        choice1: 'Blood of Jesus',
-        choice2: 'Santa Claus',
-        choice3: 'Holly Berries',
+        question: 'What was named as the state fruit of Ohio, in the year January 2009?',
+        choice1: 'Apple',
+        choice2: 'Banana',
+        choice3: 'Cranberry',
+        choice4: 'Blueberry',
+        answer: 3
+    },
+    {
+        question: 'What is the most-consumed fruit in the world?',
+        choice1: 'Mangoes',
+        choice2: 'Apples',
+        choice3: 'Lychees',
         choice4: 'Strawberries',
         answer: 1
     },
     {
-        question: 'Which country sends a huge Christmas tree to London, every year?',
-        choice1: 'Denmark',
-        choice2: 'Spain',
-        choice3: 'Norway',
-        choice4: 'Netherlands',
-        answer: 3
-    },
-    {
-        question: 'When is Christmas celebrated in Russia?',
-        choice1: '15th December',
-        choice2: '15th Feburary',
-        choice3: '25th December',
-        choice4: '7th January',
+        question: 'Which fruit contains heart-healthy fats?',
+        choice1: 'Coconut',
+        choice2: 'Olives',
+        choice3: 'Avocado',
+        choice4: 'All of the above',
         answer: 4
     },
     {
-        question: 'In which year was Christmas banned in Boston?',
-        choice1: '1630',
-        choice2: '1659',
-        choice3: '1840',
-        choice4: '1910',
+        question: 'Which fruit has the highest oil content?',
+        choice1: 'Peach',
+        choice2: 'Avocado',
+        choice3: 'Olive',
+        choice4: 'Mango',
         answer: 2
     },
-    {
-        question: 'Which country celebrates its Independence day on Christmas Eve every year?',
-        choice1: 'Libya',
-        choice2: 'Syria',
-        choice3: 'Lebanon',
-        choice4: 'Algeria',
-        answer: 1
-    },
-    {
-        question: 'How many packages are shipped every year?',
-        choice1: '50 million',
-        choice2: '210 million',
-        choice3: '625 million',
-        choice4: '850 million',
-        answer: 4
-    },
-    {
-        question: 'Which country did St. Nicholas belong to?',
-        choice1: 'Spain',
-        choice2: 'Italy',
-        choice3: 'Greece',
-        choice4: 'Turkey',
-        answer: 3
-    },
-    {
-        question: 'Which Country celebrates Christmas on 24 December?',
-        choice1: 'Portugal',
-        choice2: 'Spain',
-        choice3: 'United Kingdom',
-        choice4: 'Australia',
-        answer: 1
-    },
-
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 15
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
