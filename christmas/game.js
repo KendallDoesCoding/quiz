@@ -12,12 +12,12 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'From which country do French fries originate?',
-        choice1: 'Italy',
-        choice2: 'Belgium',
-        choice3: 'United States of America',
-        choice4: 'India',
-        answer: 2
+        question: 'Which popular Christmas beverage is also called “milk punch?',
+        choice1: 'Eggnog',
+        choice2: 'Hot Toddy',
+        choice3: 'Cranberry-Apple Cider Punch',
+        choice4: 'Wassail',
+        answer: 1
     },
     {
         question: 'What does "perro" mean in English?',
