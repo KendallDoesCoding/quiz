@@ -122,6 +122,10 @@ p {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
+#disney-btn {
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
 #fruit-btn {
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -129,6 +133,7 @@ p {
 #football-btn {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(236,103,103,1) 50%, rgba(252,176,69,1) 100%);
 }
+
 
 #main-btn {
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
