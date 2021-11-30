@@ -23,6 +23,12 @@ h2{
     margin-bottom: 4rem;
 }
 
+p {
+    font-size: 5.4rem;
+    color: #EE82EE;
+    margin-bottom: 5rem;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
