@@ -24,9 +24,12 @@ h2{
 }
 
 p {
-    font-size: 5.4rem;
+    font-size: 2.5rem;
     color: #EE82EE;
     margin-bottom: 5rem;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
 }
 
 .container {
