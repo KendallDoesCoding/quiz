@@ -134,6 +134,9 @@ p {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(236,103,103,1) 50%, rgba(252,176,69,1) 100%);
 }
 
+#presidents-btn {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
 
 #main-btn {
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
