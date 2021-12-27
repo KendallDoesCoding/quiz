@@ -23,7 +23,10 @@ I made this quiz, following a youtube tutorial online by Brian Designs.
 
 [US Presidents Quiz](https://quiz.kendalldoescoding.gq/presidents)
 
+# Very Important
 You may have noticed that in every folder I have linked a style.css, I too thought I could link it all in one sheet and merge them, but for different pages, I need different variables, While, I do know that there are some not required variables in every style.css file, PLEASE DO NOT MERGE THEM ALL because it will cause huge errors to the quiz!.
+
+# Sign off
 
 Thanks for your support,
 
