@@ -3,7 +3,7 @@
 Hey,
 
 Thanks for viewing the github repo for my QUIZ.
-I made this quiz, following a youtube tutorial online by Brian Designs.
+I made this quiz, following a youtube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A).
 
 # Links and Topics
 
