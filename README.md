@@ -1,7 +1,7 @@
 # quiz
 
 Thanks for viewing the github repo for my quiz.
-I made this quiz, following a Youtube tutorial online by [Brian Designs](https://kendalldoescoding.gq/briandesigns).
+I made this quiz, following a Youtube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A).
 
 # Links and Topics
 
