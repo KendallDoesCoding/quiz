@@ -11,6 +11,8 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [Quiz Topics](https://quiz.kendalldoescoding.gq/topics)
 
+[Tech Quiz](https://quiz.kendalldoescoding.gq/tech)
+
 [Christmas Quiz](https://kendalldoescoding.gq/christmasquiz)
 
 [Disney Quiz](https://quiz.kendalldoescoding.gq/disney)
