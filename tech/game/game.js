@@ -36,12 +36,12 @@ let questions = [
         answer: 4
     },
     {
-        question: 'How do you say “Merry Christmas” in Spanish?',
-        choice1: 'Feliz Navidad',
-        choice2: 'Felices Fiestas',
-        choice3: 'Que pases lindo esta navidad',
-        choice4: 'Mis mejores deseos para esta navidad',
-        answer: 1
+        question: 'What does CPU stand for?',
+        choice1: 'Computer Protection Unit',
+        choice2: 'Central Processing Unit',
+        choice3: 'Computer Parts of USA',
+        choice4: 'Computer Processing Unit',
+        answer: 2
     },
     {
         question: 'Which country started the tradition of putting up a Christmas tree?',
