@@ -1,7 +1,7 @@
 # quiz
 
 Thanks for viewing the github repo for my quiz.
-I made this quiz, following a Youtube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A).
+I made this quiz, following a Youtube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any directories with the folder name "game", because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
 
 # Links and Topics
 
@@ -22,6 +22,7 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 [Football Quiz](https://quiz.kendalldoescoding.gq/football)
 
 [US Presidents Quiz](https://quiz.kendalldoescoding.gq/presidents)
+
 
 # Very Important
 You may have noticed that in every folder I have linked a style.css, I too thought I could link it all in one sheet and merge them, but for different pages, I need different variables, While, I do know that there are some not required variables in every style.css file, PLEASE DO NOT MERGE THEM ALL because it will cause huge errors to the quiz!.
