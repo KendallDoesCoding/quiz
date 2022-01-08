@@ -55,7 +55,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 15
+const MAX_QUESTIONS = 5
 
 startGame = () => {
     questionCounter = 0
