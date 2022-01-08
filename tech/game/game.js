@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'About how many computer languages are in use?',
+        question: 'How many computer languages are in use?',
         choice1: '10,000',
         choice2: '50',
         choice3: '2,000',
