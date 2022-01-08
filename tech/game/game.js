@@ -44,94 +44,14 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Which country started the tradition of putting up a Christmas tree?',
-        choice1: 'Belgium',
-        choice2: 'France',
-        choice3: 'Germany',
-        choice4: 'Brazil',
-        answer: 3
-    },
-    {
-        question: 'What popular Christmas song was actually written for Thanksgiving?',
-        choice1: 'Silent Night by Franz Xaver Gruber',
-        choice2: 'Jingle Bells by James Lord Pierpont',
-        choice3: 'We Wish You A Merry Christmas by Arthur Sydney Warrell',
-        choice4: 'The Little Drummer Boy by Harry Simeone and Katherine Kennicott Davis',
-        answer: 2
-    },
-    {
-        question: 'Name the first US president who decorated the Christmas tree at the White House',
-        choice1: 'James Madison',
-        choice2: 'Franklin Pierce',
-        choice3: 'Rutherford B Hayes',
-        choice4: 'John Adams',
-        answer: 2
-    },
-    {
-        question: 'What does the red color of Christmas symbolize?',
-        choice1: 'Blood of Jesus',
-        choice2: 'Santa Claus',
-        choice3: 'Holly Berries',
-        choice4: 'Strawberries',
-        answer: 1
-    },
-    {
-        question: 'Which country sends a huge Christmas tree to London, every year?',
-        choice1: 'Denmark',
-        choice2: 'Spain',
-        choice3: 'Norway',
-        choice4: 'Netherlands',
-        answer: 3
-    },
-    {
-        question: 'When is Christmas celebrated in Russia?',
-        choice1: '15th December',
-        choice2: '15th Feburary',
-        choice3: '25th December',
-        choice4: '7th January',
+        question: 'Who invented C++',
+        choice1: 'Dennis Ritchie',
+        choice2: 'Guido van Rossum',
+        choice3: 'James Gosling',
+        choice4: 'Bjarne Stroustrup',
         answer: 4
     },
-    {
-        question: 'In which year was Christmas banned in Boston?',
-        choice1: '1630',
-        choice2: '1659',
-        choice3: '1840',
-        choice4: '1910',
-        answer: 2
-    },
-    {
-        question: 'Which country celebrates its Independence day on Christmas Eve every year?',
-        choice1: 'Libya',
-        choice2: 'Syria',
-        choice3: 'Lebanon',
-        choice4: 'Algeria',
-        answer: 1
-    },
-    {
-        question: 'How many packages are shipped every year?',
-        choice1: '50 million',
-        choice2: '210 million',
-        choice3: '625 million',
-        choice4: '850 million',
-        answer: 4
-    },
-    {
-        question: 'Which country did St. Nicholas belong to?',
-        choice1: 'Spain',
-        choice2: 'Italy',
-        choice3: 'Greece',
-        choice4: 'Turkey',
-        answer: 3
-    },
-    {
-        question: 'Which Country celebrates Christmas on 24 December?',
-        choice1: 'Portugal',
-        choice2: 'Spain',
-        choice3: 'United Kingdom',
-        choice4: 'Australia',
-        answer: 1
-    },
-
+   
 ]
 
 const SCORE_POINTS = 100
