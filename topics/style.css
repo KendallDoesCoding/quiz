@@ -122,6 +122,10 @@ p {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
+#browsers-btn {
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+}
+
 #minecraft-btn{
     background: radial-gradient(circle, rgba(35,218,80,1) 0%, rgba(124,252,0,1) 100%);
 }
