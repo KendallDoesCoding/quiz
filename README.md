@@ -7,7 +7,7 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [Tutorial Video](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 
-[Quiz Suggestion Template](https://www.youtube.com/watch?v=KrGfq0vXEkc)
+[Quiz Question Suggestion Template](https://www.youtube.com/watch?v=KrGfq0vXEkc)
 
 [Quiz Website](https://kendalldoescoding.gq/quiz)
 
