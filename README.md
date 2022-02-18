@@ -34,9 +34,13 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 # Quiz Length Breakdown
 **Mini Quiz** - *3 Questions* - Browsers Quiz
+
 **Medium Quiz** - *5 questions* - Tech Quiz, Disney Quiz, U.S Presidents Quiz
+
 **Above Medium Quiz** - *7 questions* - Roblox Quiz
+
 **Normal Quiz** - *10 questions* - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz
+
 **Mega Quiz** - *15 questions* - Christmas Quiz
 
 # Very Important
