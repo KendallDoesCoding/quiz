@@ -15,7 +15,13 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [Tech Quiz](https://quiz.kendalldoescoding.gq/tech)
 
+[Minecraft Quiz](https://quiz.kendalldoescoding.gq/minecraft)
+
+[Roblox Quiz](https://quiz.kendalldoescoding.gq/Roblox)
+
 [Christmas Quiz](https://kendalldoescoding.gq/christmasquiz)
+
+[Browsers Quiz](https://quiz.kendalldoescoding.gq/browsers)
 
 [Disney Quiz](https://quiz.kendalldoescoding.gq/disney)
 
@@ -25,7 +31,13 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [US Presidents Quiz](https://quiz.kendalldoescoding.gq/presidents)
 
-[TECH QUIZ](https://quiz.kendalldoescoding.gq/tech)
+
+# Quiz Length Breakdown
+**Mini Quiz** - *3 Questions* - Browsers Quiz
+**Medium Quiz** - *5 questions* - Tech Quiz, Disney Quiz, U.S Presidents Quiz
+**Above Medium Quiz** - *7 questions* - Roblox Quiz
+**Normal Quiz** - *10 questions* - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz
+**Mega Quiz** - *15 questions* - Christmas Quiz
 
 # Very Important
 You may have noticed that in every folder I have linked a style.css, I too thought I could link it all in one sheet and merge them, but for different pages, I need different variables, While, I do know that there are some not required variables in every style.css file, PLEASE DO NOT MERGE THEM ALL because it will cause huge errors to the quiz!.
