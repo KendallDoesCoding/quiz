@@ -33,7 +33,7 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 
 # Quiz Length Breakdown
-**Mini Quiz** - *3 Questions* - Browsers Quiz
+**Mini Quiz** - *3 Questions* - Browsers Quiz, How Well Do You Know Kendall Quiz
 
 **Medium Quiz** - *5 questions* - Tech Quiz, Disney Quiz, U.S Presidents Quiz
 
