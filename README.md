@@ -31,6 +31,8 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [US Presidents Quiz](https://quiz.kendalldoescoding.gq/presidents)
 
+[How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.gq/How-Well-Do-You-Know-Kendall)
+
 
 # Quiz Length Breakdown
 **Mini Quiz** - *3 Questions* - Browsers Quiz, How Well Do You Know Kendall Quiz
