@@ -86,7 +86,7 @@ let questions = [
     answer: 2,
   },
   {
-    question: "How many states consider Good Friday a holiday?",
+    question: "How many states consider Good Friday a holiday in the US?",
     choice1: "102",
     choice2: "57",
     choice3: "12",
