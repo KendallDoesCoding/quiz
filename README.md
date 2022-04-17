@@ -17,7 +17,9 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [Minecraft Quiz](https://quiz.kendalldoescoding.gq/minecraft)
 
-[Roblox Quiz](https://quiz.kendalldoescoding.gq/Roblox)
+[Roblox Quiz](https://quiz.kendalldoescoding.gq/roblox)
+
+[Easter Quiz](https://quiz.kendalldoescoding.gq/easter)
 
 [Christmas Quiz](https://kendalldoescoding.gq/christmasquiz)
 
@@ -42,6 +44,8 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 **Above Medium Quiz** - *7 questions* - Roblox Quiz
 
 **Normal Quiz** - *10 questions* - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz
+
+**Above Normal Quiz** - *13 questions* - Easter Quiz
 
 **Mega Quiz** - *15 questions* - Christmas Quiz
 
