@@ -17,7 +17,7 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [Minecraft Quiz](https://quiz.kendalldoescoding.gq/minecraft)
 
-[Roblox Quiz](https://quiz.kendalldoescoding.gq/Roblox)
+[Roblox Quiz](https://quiz.kendalldoescoding.gq/roblox)
 
 [Easter Quiz](https://quiz.kendalldoescoding.gq/easter)
 
