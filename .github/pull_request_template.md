@@ -1,4 +1,5 @@
 # Related Issue/Addition to code
+
 - Issue goes here
 
 ## Type of change
@@ -11,10 +12,12 @@ Please delete options that are not relevant.
 - [ ] This change requires a documentation update
 
 # Proposed Changes
+
 - change 1
 - change 2
 
 # Additional Info
+
 - any additional info for context
 
 ## Checklist:
@@ -31,6 +34,6 @@ Please delete options that are not relevant.
 
 # Screenshots
 
-Original | Updated
-:----------------------:|:-----------:
-** original screenshot  | ** updated screenshot **
+|         Original         |         Updated          |
+| :----------------------: | :----------------------: |
+| \*\* original screenshot | ** updated screenshot ** |
