@@ -1,7 +1,7 @@
 # quiz
 
-Thanks for viewing the github repo for my quiz.
-I made this quiz, following a Youtube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any directories with the folder name "game", because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
+Thanks for viewing the GitHub repo for my quiz.
+I made this quiz, following a YouTube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any directories with the folder name "game", because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
 
 # Links and Topics
 
@@ -35,24 +35,25 @@ I made this quiz, following a Youtube tutorial online by [Brian Designs](https:/
 
 [How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.gq/How-Well-Do-You-Know-Kendall)
 
-
 # Quiz Length Breakdown
-**Mini Quiz** - *3 Questions* - Browsers Quiz, How Well Do You Know Kendall Quiz
 
-**Medium Quiz** - *5 questions* - Tech Quiz, Disney Quiz, U.S Presidents Quiz
+**Mini Quiz** - _3 Questions_ - Browsers Quiz, How Well Do You Know Kendall Quiz
 
-**Above Medium Quiz** - *7 questions* - Roblox Quiz
+**Medium Quiz** - _5 questions_ - Tech Quiz, Disney Quiz, U.S Presidents Quiz
 
-**Normal Quiz** - *10 questions* - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz
+**Above Medium Quiz** - _7 questions_ - Roblox Quiz
 
-**Above Normal Quiz** - *13 questions* - Easter Quiz
+**Normal Quiz** - _10 questions_ - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz
 
-**Mega Quiz** - *15 questions* - Christmas Quiz
+**Above Normal Quiz** - _13 questions_ - Easter Quiz
+
+**Mega Quiz** - _15 questions_ - Christmas Quiz
 
 # Very Important
+
 You may have noticed that in every folder I have linked a style.css, I was considering consolidating and thought I could link it all in one sheet and merge them, but for different pages, I need different variables, While, I do know that there are some not required variables in every style.css file, PLEASE DO NOT MERGE THEM ALL because it will cause huge errors to the quiz!.
 
-Although, this is a bit of a concern as it displays that this project is made out of CSS, because that's where the most code is there. I may need to remove the extra css in all the style.css files, or figure out how to make it so that there can be only one css file without messing up anything. 
+Although, this is a bit of a concern as it displays that this project is made out of CSS, because that's where the most code is there. I may need to remove the extra css in all the style.css files, or figure out how to make it so that there can be only one css file without messing up anything.
 
 # Sign off
 
