@@ -73,11 +73,9 @@ linter:
 #     target: ["app/**/*.scss"]
 
 # Ignore specific files. Example:
-# ignore:
-#   - "*.pdf"
-#   - "*.mp4"
-#   - "*.min.*"
-#   - "images/**"
+ ignore:
+      - "*.js"
+
 
 # Exclude specific branches. Example:
 # branches:
