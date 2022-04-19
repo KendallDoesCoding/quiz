@@ -34,13 +34,26 @@ p {
 
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 80rem;
   margin: 0 auto;
   padding: 2rem;
+  flex-direction: column;
+  flex-direction: center;
+}
+
+.intro {
+  width: 200vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-direction: center;
 }
 
 .flex-column {
