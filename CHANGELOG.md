@@ -1,3 +1,12 @@
+## [7.3.2](https://github.com/KendallDoesCoding/quiz/compare/v7.3.1...v7.3.2) (2022-05-09)
+
+
+### Bug Fixes
+
+* play again path link error ([1978fcf](https://github.com/KendallDoesCoding/quiz/commit/1978fcf0bf578cab5f7d5bd4ec94958edef47c08))
+
+
+
 ## [7.3.1](https://github.com/KendallDoesCoding/quiz/compare/v0.1.0...v7.3.1) (2022-04-18)
 
 
