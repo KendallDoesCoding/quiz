@@ -1,3 +1,17 @@
+# [7.4.0](https://github.com/KendallDoesCoding/quiz/compare/v7.3.3...v7.4.0) (2022-05-09)
+
+
+### Bug Fixes
+
+* remove mention of Christmas Quiz in fruit quiz rules ([557605a](https://github.com/KendallDoesCoding/quiz/commit/557605ada4330429bd6bcdbc129898e357fb9e54))
+
+
+### Features
+
+* add new medium quiz - countries quiz ([3dcc766](https://github.com/KendallDoesCoding/quiz/commit/3dcc766e53cdff55b83d652a6b8c6f529332272a))
+
+
+
 ## [7.3.3](https://github.com/KendallDoesCoding/quiz/compare/v7.3.2...v7.3.3) (2022-05-09)
 
 
