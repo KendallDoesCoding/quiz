@@ -31,6 +31,8 @@ I made this quiz, following a YouTube tutorial online by [Brian Designs](https:/
 
 [Football Quiz](https://quiz.kendalldoescoding.gq/football)
 
+[Country Quiz](https://quiz.kendalldoescoding.gq/countries)
+
 [US Presidents Quiz](https://quiz.kendalldoescoding.gq/presidents)
 
 [How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.gq/How-Well-Do-You-Know-Kendall)
@@ -39,7 +41,7 @@ I made this quiz, following a YouTube tutorial online by [Brian Designs](https:/
 
 **Mini Quiz** - _3 Questions_ - Browsers Quiz, How Well Do You Know Kendall Quiz
 
-**Medium Quiz** - _5 questions_ - Tech Quiz, Disney Quiz, U.S Presidents Quiz
+**Medium Quiz** - _5 questions_ - Tech Quiz, Disney Quiz, Country Quiz, U.S Presidents Quiz
 
 **Above Medium Quiz** - _7 questions_ - Roblox Quiz
 
