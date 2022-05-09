@@ -1,3 +1,13 @@
+## [7.3.3](https://github.com/KendallDoesCoding/quiz/compare/v7.3.2...v7.3.3) (2022-05-09)
+
+
+### Bug Fixes
+
+* play again path link error for browsers quiz. ([8d37af0](https://github.com/KendallDoesCoding/quiz/commit/8d37af0d2a1c2f175b2355b028134ecbfa79ddc7))
+* Update quiz name in rules for Fruit Quiz. ([4dba717](https://github.com/KendallDoesCoding/quiz/commit/4dba717ec62c5069e42ac01c5cd5a5d8da6b2ae7))
+
+
+
 ## [7.3.2](https://github.com/KendallDoesCoding/quiz/compare/v7.3.1...v7.3.2) (2022-05-09)
 
 
