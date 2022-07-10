@@ -208,10 +208,8 @@ incrementScore = (num) => {
 
 // function to deduct 100 points for wrong answer until we reach zero
 decrementScore = (num) => {
-	if (score > 0) {
 		score -= num;
 		scoreText.innerText = score;
-	}
 };
 
 startGame();
