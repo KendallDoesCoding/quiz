@@ -1,3 +1,12 @@
+# [7.6.0](https://github.com/KendallDoesCoding/quiz/compare/v7.5.0...v7.6.0) (2022-07-10)
+
+
+### Features
+
+* Points decrement for wrong answers ([41035e7](https://github.com/KendallDoesCoding/quiz/commit/41035e760a5b5deac6a98cf4e1c5f8217be0c4aa))
+
+
+
 # [7.5.0](https://github.com/KendallDoesCoding/quiz/compare/v7.4.0...v7.5.0) (2022-05-22)
 
 
@@ -37,16 +46,6 @@
 ### Bug Fixes
 
 * play again path link error ([1978fcf](https://github.com/KendallDoesCoding/quiz/commit/1978fcf0bf578cab5f7d5bd4ec94958edef47c08))
-
-
-
-## [7.3.1](https://github.com/KendallDoesCoding/quiz/compare/v0.1.0...v7.3.1) (2022-04-18)
-
-
-### Bug Fixes
-
-* fix misspelling of receive/format rules HTML ([93ea778](https://github.com/KendallDoesCoding/quiz/commit/93ea778f34055de97ccc143cb6a3e0091e39b54b))
-* remove GitHub copyright line? ([11069f7](https://github.com/KendallDoesCoding/quiz/commit/11069f78663338e006e0286a710b1422ccbb49f2))
 
 
 
