@@ -1,198 +1,198 @@
-@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@300;400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@300;400;600;700;800&display=swap');
 
 :root {
-  background-color: rgb(29, 26, 26);
+	background-color: rgb(29, 26, 26);
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-size: 62.5%;
-  font-family: "Nova Square", cursive;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	font-family: 'Nova Square', cursive;
 }
 
 h1 {
-  font-size: 5.4rem;
-  color: #fff;
-  margin-bottom: 5rem;
+	font-size: 5.4rem;
+	color: #fff;
+	margin-bottom: 5rem;
 }
 
 h2 {
-  font-size: 4.2rem;
-  margin-bottom: 4rem;
+	font-size: 4.2rem;
+	margin-bottom: 4rem;
 }
 
 .container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 80rem;
-  margin: 0 auto;
-  padding: 2rem;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 2rem;
 }
 
 .flex-column {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .flex-center {
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .justify-center {
-  justify-content: center;
+	justify-content: center;
 }
 
 .text-center {
-  text-align: center;
+	text-align: center;
 }
 
 .hidden {
-  display: none;
+	display: none;
 }
 
 .btn {
-  font-size: 2.4rem;
-  padding: 2rem 0;
-  width: 30rem;
-  text-align: center;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  color: rgb(28, 26, 26);
-  background-image: linear-gradient(
-    109.6deg,
-    rgba(45, 116, 213, 1) 11.2%,
-    rgba(121, 137, 212, 1) 91.2%
-  );
-  border: 4px;
+	font-size: 2.4rem;
+	padding: 2rem 0;
+	width: 30rem;
+	text-align: center;
+	margin-bottom: 1rem;
+	text-decoration: none;
+	color: rgb(28, 26, 26);
+	background-image: linear-gradient(
+		109.6deg,
+		rgba(45, 116, 213, 1) 11.2%,
+		rgba(121, 137, 212, 1) 91.2%
+	);
+	border: 4px;
 }
 
 .btn:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem - rgba(8, 114, 244, 0.6);
-  transition: transform 150ms;
-  transform: scale(1.03);
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem - rgba(8, 114, 244, 0.6);
+	transition: transform 150ms;
+	transform: scale(1.03);
 }
 
 .btn[disabled]:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
 }
 
 #topics-btn {
-  background-image: radial-gradient(
-    circle 489px at 49.3% 46.6%,
-    rgba(255, 214, 126, 1) 0%,
-    rgba(253, 200, 0, 1) 100.2%
-  );
+	background-image: radial-gradient(
+		circle 489px at 49.3% 46.6%,
+		rgba(255, 214, 126, 1) 0%,
+		rgba(253, 200, 0, 1) 100.2%
+	);
 }
 
 #highscore-btn {
-  background-image: radial-gradient(
-    circle 957px at 8.7% 50.5%,
-    rgba(246, 191, 13, 1) 0%,
-    rgba(249, 47, 47, 1) 90%
-  );
+	background-image: radial-gradient(
+		circle 957px at 8.7% 50.5%,
+		rgba(246, 191, 13, 1) 0%,
+		rgba(249, 47, 47, 1) 90%
+	);
 }
 
 #highscore-btn:hover {
-  box-shadow: -0.4rem 1.4rem - rgba(255, 255, 0, 0.5);
+	box-shadow: -0.4rem 1.4rem - rgba(255, 255, 0, 0.5);
 }
 
 #rules-btn {
-  background-image: linear-gradient(
-    180.5deg,
-    rgba(46, 255, 171, 1) 12.3%,
-    rgba(252, 251, 222, 0.46) 92%
-  );
+	background-image: linear-gradient(
+		180.5deg,
+		rgba(46, 255, 171, 1) 12.3%,
+		rgba(252, 251, 222, 0.46) 92%
+	);
 }
 
 #suggestion-btn {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(14, 174, 87, 1) 0%,
-    rgba(12, 116, 117, 1) 90%
-  );
+	background-image: radial-gradient(
+		circle farthest-corner at 10% 20%,
+		rgba(14, 174, 87, 1) 0%,
+		rgba(12, 116, 117, 1) 90%
+	);
 }
 
 #music-btn {
-  background-image: linear-gradient(
-    83.2deg,
-    rgba(150, 93, 233, 1) 10.8%,
-    rgba(99, 88, 238, 1) 94.3%
-  );
+	background-image: linear-gradient(
+		83.2deg,
+		rgba(150, 93, 233, 1) 10.8%,
+		rgba(99, 88, 238, 1) 94.3%
+	);
 }
 
 #releases-btn {
-  background-image: radial-gradient(
-    circle 860px at 11.8% 33.5%,
-    rgba(240, 30, 92, 1) 0%,
-    rgba(244, 49, 74, 1) 30.5%,
-    rgba(249, 75, 37, 1) 56.1%,
-    rgba(250, 88, 19, 1) 75.6%,
-    rgba(253, 102, 2, 1) 100.2%
-  );
+	background-image: radial-gradient(
+		circle 860px at 11.8% 33.5%,
+		rgba(240, 30, 92, 1) 0%,
+		rgba(244, 49, 74, 1) 30.5%,
+		rgba(249, 75, 37, 1) 56.1%,
+		rgba(250, 88, 19, 1) 75.6%,
+		rgba(253, 102, 2, 1) 100.2%
+	);
 }
 
 #christmas-btn {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 151, 32, 1) 255%,
-    rgba(255, 137, 1, 1) 255%
-  );
+	background: linear-gradient(
+		90deg,
+		rgba(255, 151, 32, 1) 255%,
+		rgba(255, 137, 1, 1) 255%
+	);
 }
 
 .fa-crown {
-  font-size: 2.5rem;
-  margin-left: 1rem;
+	font-size: 2.5rem;
+	/* margin-left: 1rem; */
 }
 
 /* End Page CSS */
 .end-form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 30rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 30rem;
 }
 
 input {
-  margin-bottom: 1rem;
-  width: 20rem;
-  padding: 1.5rem;
-  font-size: 1.8rem;
-  border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+	margin-bottom: 1rem;
+	width: 20rem;
+	padding: 1.5rem;
+	font-size: 1.8rem;
+	border: none;
+	box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
 }
 
 input::placeholder {
-  color: #aaa;
+	color: #aaa;
 }
 
 #username {
-  margin-bottom: 3rem;
-  width: 100%;
-  outline: none;
+	margin-bottom: 3rem;
+	width: 100%;
+	outline: none;
 }
 
 #end-text {
-  font-size: 2.4rem;
-  color: #fff;
-  text-align: center;
+	font-size: 2.4rem;
+	color: #fff;
+	text-align: center;
 }
 
 #saveScoreBtn {
-  border: none;
+	border: none;
 }
 
 .fa-home {
-  margin-left: 1rem;
-  font-size: 2rem;
-  color: rgb(28, 26, 26);
+	margin-left: 1rem;
+	font-size: 2rem;
+	color: rgb(28, 26, 26);
 }
