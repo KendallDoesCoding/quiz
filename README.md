@@ -57,6 +57,8 @@ You may have noticed that in every folder I have linked a style.css, I was consi
 
 Although, this is a bit of a concern as it displays that this project is made out of CSS, because that's where the most code is there. I may need to remove the extra css in all the style.css files, or figure out how to make it so that there can be only one css file without messing up anything.
 
+Also, if your wondering, no this is not the same quiz as [Quiz in .Bat](https://github.com/KendallDoesCoding/Quiz-in-.bat), it's much more improved with more topics, etc and a more modern day design rather then just a command line game.
+
 # Sign off
 
 Thanks for your support,
