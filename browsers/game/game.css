@@ -3,8 +3,8 @@ body {
 }
 
 .choice-container {
+  margin: 0 auto 0.8rem auto;
   display: flex;
-  margin-bottom: 0.8rem;
   width: 100%;
   border-radius: 4px;
   background: rgb(18, 93, 255);
