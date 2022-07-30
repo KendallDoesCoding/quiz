@@ -3,13 +3,13 @@ body {
 }
 
 .choice-container {
+  margin: 0 auto 0.8rem auto;
   display: flex;
-  margin-bottom: 0.8rem;
   width: 100%;
   border-radius: 4px;
   background: rgb(18, 93, 255);
   font-size: 3rem;
-  min-width: 80rem;
+  max-width: 875px;
 }
 
 .choice-container:hover {
@@ -75,8 +75,14 @@ body {
   width: 0%;
 }
 
-@media screen and (max-width: 768px) {
-  .choice-container {
-    min-width: 40rem;
+@media screen and (max-width: 400px) {
+  #hud {
+    flex-wrap: wrap;
+  }
+
+  #hud .hud-item:nth-child(2) {
+    border: 1px solid purple;
+    margin: 0 auto;
   }
 }
+/* max-widht:875 */
