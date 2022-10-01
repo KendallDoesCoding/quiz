@@ -296,9 +296,6 @@ input::placeholder {
   color: rgb(28, 26, 26);
 }
 
-.hidden{
-  display: none;
-}
 
 #technology{
   background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
