@@ -9,45 +9,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="intro">
       <h1>Quiz Topics</h1>
       <p>Many more quiz topics coming soon!</p>
+      <p>Select Your Category</p>
     </div>
     <div class="container">
-      <div id="home" class="flex-column flex-center">
-        <a href="/" id="main-btn" class="btn">Main Quiz</a>
+      <div id="home" class="flex-column">
+        <div id="technology" class="btn">
+          Technology
+          <img
+            class="dropdown"
+            src="../assets/arrow-down-sign-to-navigate.png"
+          />
+        </div>
+      </div>
+      <div id="technologymore" class="hide more">
         <a href="/tech" id="tech-btn" class="btn"
           >Tech Quiz <i class="fa fa-mobile" aria-hidden="true"></i
         ></a>
-        <a href="/minecraft" id="minecraft-btn" class="btn">Minecraft Quiz</a>
-        <a href="/roblox" id="roblox-btn" class="btn">Roblox Quiz</a>
-        <a href="/easter" id="easter-btn" class="btn"
-          >Easter Quiz <i class="fas fa-egg" aria-hidden="true"></i
-        ></a>
-        <a href="/christmas" id="christmas-btn" class="btn"
-          >Christmas Quiz <i class="fas fa-gift"></i
-        ></a>
         <a href="/browsers" id="browsers-btn" class="btn">Browsers Quiz</a>
-        <a href="/disney" id="disney-btn" class="btn">Disney Quiz</a>
-        <a href="/fruit" id="fruit-btn" class="btn"
-          >Fruit Quiz <i class="fas fa-apple-alt"></i
-        ></a>
-        <a href="/football" id="football-btn" class="btn"
-          >Football Quiz <i class="fas fa-futbol"></i
-        ></a>
-        <a href="/countries" id="country-btn" class="btn">Country Quiz</a>
-        <a href="/presidents" id="presidents-btn" class="btn"
-          >U.S Presidents Quiz <i class="fas fa-flag-usa"></i
-        ></a>
-        <a href="/How-Well-Do-You-Know-Kendall" id="hwdyk-btn" class="btn"
-          >How Well Do You Know Kendall Quiz<i class="fas fa-question"></i
-        ></a>
+      </div>
+
+      <div id="games" class="btn">
+        Games
+        <img class="dropdown" src="../assets/arrow-down-sign-to-navigate.png" />
       </div>
     </div>
   </body>
