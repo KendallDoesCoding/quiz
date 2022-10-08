@@ -179,11 +179,8 @@ p {
 }
 
 #minecraft-btn {
-  background: radial-gradient(
-    circle,
-    rgba(35, 218, 80, 1) 0%,
-    rgba(124, 252, 0, 1) 100%
-  );
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
 
 #roblox-btn {
@@ -235,7 +232,8 @@ p {
 }
 
 #tech-btn {
-  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);  
 }
 
 #hwdyk-btn {
@@ -300,16 +298,11 @@ input::placeholder {
 }
 
 #games{
-  background: radial-gradient(
-    circle,
-    rgba(35, 218, 80, 1) 0%,
-    rgba(124, 252, 0, 1) 100%
-  );
+  background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
 }
 
-#festivals{
-  background-color: #fad961;
-  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+#festival{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
 }
 
 #gk{
