@@ -332,3 +332,7 @@ input::placeholder {
 .show{
   display: flex;
 }
+
+.dropdown {
+	pointer-events: none;
+}
