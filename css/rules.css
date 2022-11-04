@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: #ef744b;
+}
+
+h3 {
+  color: violet;
+  font-size: 3rem;
+}
+
+h2 {
+  color: green;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 23px;
+}

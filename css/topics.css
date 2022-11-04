@@ -1,0 +1,136 @@
+.hide {
+  display: none;
+  /* width: 0; */
+}
+
+#home {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.show {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+/* need to overite width from .btn in css/index.css */
+.show > a {
+  width: 100%;
+}
+
+/* GRADIENTS */
+/* technology */
+#technology {
+  background-image: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+
+#tech-btn {
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+#browsers-btn {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(61, 245, 167, 1) 11.2%,
+    rgba(9, 111, 224, 1) 91.1%
+  );
+}
+
+/* Games */
+#games {
+  background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
+}
+
+#minecraft-btn {
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+
+#roblox-btn {
+  background-image: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(101, 102, 104, 1) 100%
+  );
+}
+
+#football-btn {
+  background-image: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(236, 103, 103, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+/* Festivals */
+#festivals {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+}
+
+#easter-btn {
+  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+}
+
+#christmas-btn {
+  background-image: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+/* General knowledge */
+#general {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+}
+
+#country-btn {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+}
+
+#presidents-btn {
+  background-image: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+}
+
+/* Others */
+#others {
+  background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+#disney-btn {
+  background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+#fruit-btn {
+  background-image: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+#hwdyk-btn {
+  background-image: radial-gradient(
+    circle,
+    rgba(35, 218, 80, 1) 0%,
+    rgba(252, 0, 209, 1) 100%
+  );
+}
