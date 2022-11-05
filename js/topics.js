@@ -23,3 +23,7 @@ document
 document
   .getElementById("others")
   .addEventListener("click", () => toggleHidde("othersMore"));
+
+document.querySelector(".go-back").addEventListener("click", () => {
+  window.history.back();
+});

@@ -70,9 +70,7 @@ getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
 
-    const current = window.location.pathname.replace("game", "end");
-
-    return window.location.assign(current);
+    return window.location.assign("/pages/end.html");
   }
 
   questionCounter++;

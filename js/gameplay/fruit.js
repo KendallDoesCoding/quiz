@@ -1,30 +1,3 @@
-const questions = [
-  {
-    question: "Which year was the first web browser created in?",
-    choice1: "1985",
-    choice2: "1993",
-    choice3: "1990",
-    choice4: "1991",
-    answer: 3,
-  },
-  {
-    question: "Netscape Browser Version 8.0 was released in?",
-    choice1: "May 2005",
-    choice2: "April 2005",
-    choice3: "July 2004",
-    choice4: "December 2007",
-    answer: 1,
-  },
-  {
-    question: "What was the first web browser?",
-    choice1: "Netscape",
-    choice2: "Mozilla Firefox",
-    choice3: "IE (Internet Explorer)",
-    choice4: "World Wide Web",
-    answer: 4,
-  },
-];
-
 const question = document.querySelector("#question");
 const choices = Array.from(document.querySelectorAll(".choice-text"));
 const progressText = document.querySelector("#progressText");
@@ -37,8 +10,92 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+let questions = [
+  {
+    question: "Where was the kiwi fruit first grown?",
+    choice1: "New Zealand",
+    choice2: "China",
+    choice3: "Australia",
+    choice4: "Chile",
+    answer: 2,
+  },
+  {
+    question: "What percentage of the watermelon is water?",
+    choice1: "64%",
+    choice2: "39%",
+    choice3: "92%",
+    choice4: "80%",
+    answer: 3,
+  },
+  {
+    question: "What do apple pipes contain?",
+    choice1: "Cyanide",
+    choice2: "Juice",
+    choice3: "Sodium",
+    choice4: "Vitamin H",
+    answer: 1,
+  },
+  {
+    question: "What is the other name for Chinese Gooseberry?",
+    choice1: "Plum",
+    choice2: "Lime",
+    choice3: "Cherry",
+    choice4: "Kiwi",
+    answer: 4,
+  },
+  {
+    question: "There is a museum in Belgium dedicated to",
+    choice1: "Papya",
+    choice2: "Strawberries",
+    choice3: "Cherry",
+    choice4: "Pear",
+    answer: 2,
+  },
+  {
+    question: "The only fruit to have seeds on the outside is?",
+    choice1: "Strawberry",
+    choice2: "Lychee",
+    choice3: "Pineapple",
+    choice4: "Raspberry",
+    answer: 1,
+  },
+  {
+    question:
+      "What was named as the state fruit of Ohio, in the year January 2009?",
+    choice1: "Apple",
+    choice2: "Banana",
+    choice3: "Cranberry",
+    choice4: "Blueberry",
+    answer: 3,
+  },
+  {
+    question: "What is the most-consumed fruit in the world?",
+    choice1: "Mangoes",
+    choice2: "Apples",
+    choice3: "Lychees",
+    choice4: "Strawberries",
+    answer: 1,
+  },
+  {
+    question: "Which fruit contains heart-healthy fats?",
+    choice1: "Coconut",
+    choice2: "Olives",
+    choice3: "Avocado",
+    choice4: "All of the above",
+    answer: 4,
+  },
+  {
+    question: "Which fruit has the highest oil content?",
+    choice1: "Peach",
+    choice2: "Avocado",
+    choice3: "Olive",
+    choice4: "Mango",
+    answer: 2,
+  },
+];
+
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
   questionCounter = 0;
@@ -51,7 +108,9 @@ getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
 
-    return window.location.assign("/pages/end.html");
+    const current = window.location.pathname.replace("game", "end");
+
+    return window.location.assign(current);
   }
 
   questionCounter++;
