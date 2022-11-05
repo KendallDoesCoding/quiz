@@ -5,15 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Quiz Page - Easter</title>
+    <title>Quiz Page - Kendall's Quiz</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../css/index.css" />
     <link rel="stylesheet" href="../../css/game.css" />
     <script type="module" defer>
-      import { easterQA } from "../../js/data/index.js";
+      import { kendallQA } from "../../js/data/index.js";
       import { Quiz } from "../../js/QuizClass.js";
 
-      const QuizInstance = new Quiz(easterQA);
+      const QuizInstance = new Quiz(kendallQA);
 
       document.addEventListener("click", (e) => {
         if (e.target.dataset.number) {
@@ -21,6 +22,7 @@
         }
       });
     </script>
+
   </head>
 
   <body>

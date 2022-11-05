@@ -9,22 +9,22 @@
   answer: 3,
 }
  */
-import browsersQA from "./browsers";
-import xmasQA from "./christmas";
-import countriesQA from "./countries";
+import browsersQA from "./browsers.js";
+import xmasQA from "./christmas.js";
+import countriesQA from "./countries.js";
 
-import disneyQA from "./disney";
-import easterQA from "./easter";
-import footballQA from "./football";
+import disneyQA from "./disney.js";
+import easterQA from "./easter.js";
+import footballQA from "./football.js";
 
-import fruitQA from "./fruit";
-import generalQA from "./general";
-import kendallQA from "./kendall_quiz";
+import fruitQA from "./fruit.js";
+import generalQA from "./general.js";
+import kendallQA from "./kendall_quiz.js";
 
-import minecraftQA from "./minecraft";
-import presidentsQA from "./presidents";
-import robloxQA from "./roblox";
-import techQA from "./tech";
+import minecraftQA from "./minecraft.js";
+import presidentsQA from "./presidents.js";
+import robloxQA from "./roblox.js";
+import techQA from "./tech.js";
 
 export {
   browsersQA,

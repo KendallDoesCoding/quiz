@@ -10,7 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../css/index.css" />
     <link rel="stylesheet" href="../../css/game.css" />
-    <script src="../../js/gameplay/minecraft.js" defer></script>
+    <script type="module" defer>
+      import { minecraftQA } from "../../js/data/index.js";
+      import { Quiz } from "../../js/QuizClass.js";
+
+      const QuizInstance = new Quiz(minecraftQA);
+
+      document.addEventListener("click", (e) => {
+        if (e.target.dataset.number) {
+          QuizInstance.checkAnswer(+e.target.dataset.number, 2);
+        }
+      });
+    </script>
 
   </head>
 

@@ -5,11 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Quiz Page</title>
+    <title>Quiz Page - Disney</title>
 
     <link rel="stylesheet" href="../../css/index.css" />
     <link rel="stylesheet" href="../../css/game.css" />
-    <script src="../../js/gameplay/disney.js" defer></script>
+    <script type="module" defer>
+      import { disneyQA } from "../../js/data/index.js";
+      import { Quiz } from "../../js/QuizClass.js";
+
+      const QuizInstance = new Quiz(disneyQA);
+
+      document.addEventListener("click", (e) => {
+        if (e.target.dataset.number) {
+          QuizInstance.checkAnswer(+e.target.dataset.number, 2);
+        }
+      });
+    </script>
   </head>
 
   <body>
