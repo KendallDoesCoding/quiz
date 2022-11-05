@@ -24,17 +24,6 @@ h2 {
   margin-bottom: 4rem;
 }
 
-.container {
-  /* width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 80rem;
-  margin: 0 auto;
-  padding: 2rem; */
-}
-
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -202,4 +191,31 @@ input::placeholder {
   font-size: 3.6rem;
   color: white;
   text-align: center;
+}
+
+/* Topics page */
+.intro p {
+  color: #ee82ee;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-bottom: 2.4rem;
+  cursor: pointer;
+}
+
+.back-btn {
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-btn img {
+  rotate: 90deg;
+}
+
+.back-btn p {
+  padding: 13px;
+}
+.go-back {
+  color: rgb(59, 196, 255) !important;
 }

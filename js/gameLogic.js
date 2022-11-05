@@ -1,3 +1,5 @@
+import { xmasQA } from "./data/index";
+
 const question = document.querySelector("#question");
 const choices = Array.from(document.querySelectorAll(".choice-text"));
 const progressText = document.querySelector("#progressText");
@@ -11,16 +13,17 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 5;
+// get array len from import
+const MAX_QUESTIONS = xmasQA.length;
 
-startGame = () => {
+const startGame = () => {
   questionCounter = 0;
   score = 0;
-  availableQuestions = [...questions];
+  availableQuestions = [...question];
   getNewQuestion();
 };
 
-getNewQuestion = () => {
+const getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
 
@@ -73,13 +76,13 @@ choices.forEach((choice) => {
   });
 });
 
-incrementScore = (num) => {
+const incrementScore = (num) => {
   score += num;
   scoreText.innerText = score;
 };
 
 // function to deduct 100 points for wrong answer
-decrementScore = (num) => {
+const decrementScore = (num) => {
   score -= num;
   scoreText.innerText = score;
 };
