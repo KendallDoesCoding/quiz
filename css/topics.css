@@ -17,6 +17,8 @@
 /* need to overite width from .btn in css/index.css */
 .show > a {
   width: 100%;
+  position: relative;
+  left: 20px;
 }
 
 /* GRADIENTS */

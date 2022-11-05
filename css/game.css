@@ -8,8 +8,8 @@ body {
 
 .choice-container {
   display: flex;
-  margin-bottom: 0.8rem;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto 0.8rem auto;
   border-radius: 4px;
   background: rgb(18, 93, 255);
   font-size: 3rem;
@@ -51,6 +51,7 @@ body {
 
 /* Heads up Display */
 #hud {
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
 }
