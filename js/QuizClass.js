@@ -2,12 +2,12 @@ export class Quiz {
   constructor(dataQA = []) {
     this.dataQA = dataQA;
     // initial game values
-    this.score = 0;
-    this.answer = 0;
     this.QUESTION_VALUE = 100;
+    this.QUESTIONS_AMOUNT = dataQA.length;
     this.barPercetage = 0;
+    this.score = 0;
+    this.answer = "";
     this.canClick = true;
-    this.arrLen = dataQA.length;
     // runs here becasue we want to load the first round of questions
     this._renderNewQuestion();
   }
@@ -18,8 +18,13 @@ export class Quiz {
     return this.dataQA.pop();
   }
 
-  // todo: takes care of managing teh percentage green bar on top
-  // _renderPercentage() {this.arrLen}
+  // takes care of managing the percentage green bar on top
+  _renderPercentage() {
+    const leftQA = this.dataQA.length;
+    const percentage = (1 - leftQA / this.QUESTIONS_AMOUNT) * 100;
+
+    document.getElementById("progressBarFull").style.width = `${percentage}%`;
+  }
 
   // get's a new question from newQuestion & renders it to the page
   _renderNewQuestion() {
@@ -29,11 +34,13 @@ export class Quiz {
       return;
     }
 
+    this._renderPercentage();
+
     const pArray = document.querySelectorAll(".choice-text");
-    // update the value of the corrent answer "data-number"
+
     this.answer = currentQA["answer"];
 
-    //? render question && render all options
+    // render question && all options
     document.getElementById("question").textContent = currentQA["question"];
 
     pArray.forEach((p, i) => {
