@@ -24,7 +24,9 @@ import kendallQA from "./kendall_quiz.js";
 import minecraftQA from "./minecraft.js";
 import presidentsQA from "./presidents.js";
 import robloxQA from "./roblox.js";
+
 import techQA from "./tech.js";
+import gameQA from "./game.js";
 
 export {
   browsersQA,
@@ -40,4 +42,5 @@ export {
   presidentsQA,
   robloxQA,
   techQA,
+  gameQA,
 };
