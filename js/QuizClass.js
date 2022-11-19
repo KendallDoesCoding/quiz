@@ -1,3 +1,6 @@
+/**
+ * @dev Base class for every game, gets all the data that will use, and once the question is answered, everything is updated while poping out the question object from the array of quiestions, when it ends the resulting score is stored in local storage to keep tract of it while we change pages
+ */
 export class Quiz {
   constructor(dataQA = []) {
     this.dataQA = dataQA;
@@ -26,6 +29,15 @@ export class Quiz {
     document.getElementById("progressBarFull").style.width = `${percentage}%`;
   }
 
+  // need to calculate it based on the total amount, and remaining amount
+  _renderQuestionNumber() {
+    const leftQA = this.dataQA.length;
+    const currentQA = this.QUESTIONS_AMOUNT - leftQA;
+    const paragraph = document.getElementById("progressText");
+
+    paragraph.textContent = `Question ${currentQA} of ${this.QUESTIONS_AMOUNT}`;
+  }
+
   // get's a new question from newQuestion & renders it to the page
   _renderNewQuestion() {
     const currentQA = this._newQuestion();
@@ -35,6 +47,8 @@ export class Quiz {
     }
 
     this._renderPercentage();
+
+    this._renderQuestionNumber();
 
     const pArray = document.querySelectorAll(".choice-text");
 
@@ -50,7 +64,7 @@ export class Quiz {
 
   // sends the user to the highscore.html and asks if they want to save their score
   _endGame() {
-    console.log("GAME ENDED");
+    // console.log("GAME ENDED");
     window.localStorage.setItem("mostRecentScore", this.score);
     window.location.assign("/pages/end.html");
   }
@@ -59,18 +73,18 @@ export class Quiz {
     const p = document.querySelector(`[data-number="${selected}"]`);
 
     if (!this.canClick) {
-      console.log("WAIT THERE BOI");
+      // console.log("WAIT THERE BOI");
       return;
     }
 
     if (selected === correct) {
       p.parentElement.classList.add("correct");
       this.score += this.QUESTION_VALUE;
-      console.log("NOICE: ", this.score);
+      // console.log("NOICE: ", this.score);
     } else {
       p.parentElement.classList.add("incorrect");
       this.score -= this.QUESTION_VALUE;
-      console.log("BAKA GA!: ", this.score);
+      // console.log("BAKA GA!: ", this.score);
     }
 
     // render updated score
