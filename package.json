@@ -1,6 +1,6 @@
 {
   "name": "quiz",
-  "version": "7.6.2",
+  "version": "7.7.0",
   "description": "Colest Quiz out there 😎",
   "main": "index.js",
   "scripts": {},
