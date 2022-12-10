@@ -3,7 +3,7 @@ body {
   background-color: #fff; /*#f6f6f6, EBEBD3, fafafa*/
   font-family: Bungee Outline;
   font-weight: 900;
-
+  user-select: none;
   overflow: hidden;
   animation: blur 0.5s ease-out;
 }
@@ -325,5 +325,5 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #cccs;
+  background: #ccc;
 }

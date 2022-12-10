@@ -1,3 +1,7 @@
+body {
+  user-select: none;
+}
+
 .hide {
   display: none;
   /* width: 0; */
