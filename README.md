@@ -9,33 +9,33 @@ I made this quiz, following a YouTube tutorial online by [Brian Designs](https:/
 
 [Quiz Question Suggestion Template](https://www.youtube.com/watch?v=KrGfq0vXEkc)
 
-[Quiz Website](https://kendalldoescoding.gq/quiz)
+[Quiz Website](https://kendalldoescoding.gq/pages/quiz/index.html)
 
-[Quiz Topics](https://quiz.kendalldoescoding.gq/topics)
+[Quiz Topics](https://quiz.kendalldoescoding.gq/pages/topics/index.html)
 
-[Tech Quiz](https://quiz.kendalldoescoding.gq/tech)
+[Tech Quiz](https://quiz.kendalldoescoding.gq/pages/tech/index.html)
 
-[Minecraft Quiz](https://quiz.kendalldoescoding.gq/minecraft)
+[Minecraft Quiz](https://quiz.kendalldoescoding.gq/pages/minecraft/index.html)
 
-[Roblox Quiz](https://quiz.kendalldoescoding.gq/roblox)
+[Roblox Quiz](https://quiz.kendalldoescoding.gq/pages/roblox/index.html)
 
-[Easter Quiz](https://quiz.kendalldoescoding.gq/easter)
+[Easter Quiz](https://quiz.kendalldoescoding.gq/pages/easter/index.html)
 
-[Christmas Quiz](https://kendalldoescoding.gq/christmasquiz)
+[Christmas Quiz](https://kendalldoescoding.gq/pages/christmasquiz/index.html)
 
-[Browsers Quiz](https://quiz.kendalldoescoding.gq/browsers)
+[Browsers Quiz](https://quiz.kendalldoescoding.gq/pages/browsers/index.html)
 
-[Disney Quiz](https://quiz.kendalldoescoding.gq/disney)
+[Disney Quiz](https://quiz.kendalldoescoding.gq/pages/disney/index.html)
 
-[Fruit Quiz](https://quiz.kendalldoescoding.gq/fruit)
+[Fruit Quiz](https://quiz.kendalldoescoding.gq/pages/fruit/index.html)
 
-[Football Quiz](https://quiz.kendalldoescoding.gq/football)
+[Football Quiz](https://quiz.kendalldoescoding.gq/pages/football/index.html)
 
-[Country Quiz](https://quiz.kendalldoescoding.gq/countries)
+[Country Quiz](https://quiz.kendalldoescoding.gq/pages/countries/index.html)
 
-[US Presidents Quiz](https://quiz.kendalldoescoding.gq/presidents)
+[US Presidents Quiz](https://quiz.kendalldoescoding.gq/pages/presidents/index.html)
 
-[How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.gq/How-Well-Do-You-Know-Kendall)
+[How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.gq/pages/kendall_quiz/index.html)
 
 # Quiz Length Breakdown
 
