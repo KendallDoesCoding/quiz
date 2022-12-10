@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-  "version": "7.7.0"
+  "version": "8.0.0"
 }
 =======
   "name": "quiz",
@@ -19,4 +18,3 @@
   "bugs": {},
   "homepage": "https://github.com/KendallDoesCoding/quiz#readme"
 }
->>>>>>> 55dbe630bce22ca391a2f58e3a1492fa0c6f8b9a
