@@ -1,3 +1,9 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  user-select: none;
+}
+
 h1 {
   color: red;
 }
@@ -13,11 +19,6 @@ h3 {
 
 h2 {
   color: green;
-}
-
-body {
-  width: 80%;
-  margin: 0 auto;
 }
 
 footer {
