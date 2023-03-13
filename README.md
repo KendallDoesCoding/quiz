@@ -1,7 +1,7 @@
 # quiz
 
 Thanks for viewing the GitHub repo for my quiz.
-I made this quiz, following a YouTube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any directories with the folder name "game", because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
+I made this quiz, following a YouTube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any "Javascript" files within the directory /data, because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
 
 I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com/Hachikoi-the-creator) who made a huge revamp to this project (in v8.0.0)[Pull Request #29](https://github.com/KendallDoesCoding/quiz/pull/29).
 
