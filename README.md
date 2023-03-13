@@ -53,13 +53,9 @@ I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com
 
 **Mega Quiz** - _15 questions_ - Christmas Quiz
 
-# Very Important
-
-You may have noticed that in every folder I have linked a style.css, I was considering consolidating and thought I could link it all in one sheet and merge them, but for different pages, I need different variables, While, I do know that there are some not required variables in every style.css file, PLEASE DO NOT MERGE THEM ALL because it will cause huge errors to the quiz!.
-
-Although, this is a bit of a concern as it displays that this project is made out of CSS, because that's where the most code is there. I may need to remove the extra css in all the style.css files, or figure out how to make it so that there can be only one css file without messing up anything.
-
+-----
 Also, if your wondering, no this is not the same quiz as [Quiz in .Bat](https://github.com/KendallDoesCoding/Quiz-in-.bat), it's much more improved with more topics, etc and a more modern day design rather then just a command line game.
+-----
 
 # Sign off
 
