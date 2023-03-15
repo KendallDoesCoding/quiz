@@ -17,7 +17,7 @@
 
       document.addEventListener("click", (e) => {
         if (e.target.dataset.number) {
-          QuizInstance.checkAnswer(+e.target.dataset.number, 2);
+          QuizInstance.checkAnswer(+e.target.dataset.number, QuizInstance.answer);
         }
       });
     </script>
