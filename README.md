@@ -1,5 +1,9 @@
 # quiz
 
+---
+SITE IS DOWN UNTIL [#35](https://github.com/KendallDoesCoding/quiz/35) is FIXED.
+---
+
 Thanks for viewing the GitHub repo for my quiz.
 I made this quiz, following a YouTube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any "Javascript" files within the directory /data, because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
 
