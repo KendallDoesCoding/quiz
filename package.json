@@ -1,3 +1,17 @@
 {
-  version": "8.0.1",
-}
+  "version": "8.0.1"
+},
+  "name": "quiz",
+  "description": "Colest Quiz out there 😎",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KendallDoesCoding/quiz.git"
+},
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "https://github.com/KendallDoesCoding/quiz#readme"
