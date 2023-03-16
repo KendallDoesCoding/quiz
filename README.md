@@ -58,10 +58,17 @@ I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com
 Also, if your wondering, no this is not the same quiz as [Quiz in .Bat](https://github.com/KendallDoesCoding/Quiz-in-.bat), it's much more improved with more topics, etc and a more modern day design rather then just a command line game.
 -----
 
+# Contributors
+Thanks to all our contributors for their active support and participation!
+
+<a href = "https://github.com/KendallDoesCoding/quiz">
+  <img src = "https://contrib.rocks/image?repo=KendallDoesCoding/quiz"/>
+</a>
+
 # Sign off
 
 Thanks for your support,
 
 Kendall Does Coding,
 
-kendall@kendalldoescoding.gq
+kendall@kendalldoescoding.tech
