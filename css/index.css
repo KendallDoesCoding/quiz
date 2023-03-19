@@ -29,6 +29,10 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+.flex-row {
+  display: flex; 
+  flex-direction: row;
+}
 
 .flex-center {
   justify-content: center;
