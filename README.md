@@ -12,33 +12,33 @@ I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com
 
 [Quiz Question Suggestion Template](https://www.youtube.com/watch?v=KrGfq0vXEkc)
 
-[Quiz Website](https://kendalldoescoding.gq/pages/quiz/index.html)
+[Quiz Website](https://kendalldoescoding.tech/pages/quiz/index.html)
 
-[Quiz Topics](https://quiz.kendalldoescoding.gq/pages/topics/index.html)
+[Quiz Topics](https://quiz.kendalldoescoding.tech/pages/topics/index.html)
 
-[Tech Quiz](https://quiz.kendalldoescoding.gq/pages/tech/index.html)
+[Tech Quiz](https://quiz.kendalldoescoding.tech/pages/tech/index.html)
 
-[Minecraft Quiz](https://quiz.kendalldoescoding.gq/pages/minecraft/index.html)
+[Minecraft Quiz](https://quiz.kendalldoescoding.tech/pages/minecraft/index.html)
 
-[Roblox Quiz](https://quiz.kendalldoescoding.gq/pages/roblox/index.html)
+[Roblox Quiz](https://quiz.kendalldoescoding.tech/pages/roblox/index.html)
 
-[Easter Quiz](https://quiz.kendalldoescoding.gq/pages/easter/index.html)
+[Easter Quiz](https://quiz.kendalldoescoding.tech/pages/easter/index.html)
 
-[Christmas Quiz](https://kendalldoescoding.gq/pages/christmasquiz/index.html)
+[Christmas Quiz](https://kendalldoescoding.tech/pages/christmasquiz/index.html)
 
-[Browsers Quiz](https://quiz.kendalldoescoding.gq/pages/browsers/index.html)
+[Browsers Quiz](https://quiz.kendalldoescoding.tech/pages/browsers/index.html)
 
-[Disney Quiz](https://quiz.kendalldoescoding.gq/pages/disney/index.html)
+[Disney Quiz](https://quiz.kendalldoescoding.tech/pages/disney/index.html)
 
-[Fruit Quiz](https://quiz.kendalldoescoding.gq/pages/fruit/index.html)
+[Fruit Quiz](https://quiz.kendalldoescoding.tech/pages/fruit/index.html)
 
-[Football Quiz](https://quiz.kendalldoescoding.gq/pages/football/index.html)
+[Football Quiz](https://quiz.kendalldoescoding.tech/pages/football/index.html)
 
-[Country Quiz](https://quiz.kendalldoescoding.gq/pages/countries/index.html)
+[Country Quiz](https://quiz.kendalldoescoding.tech/pages/countries/index.html)
 
-[US Presidents Quiz](https://quiz.kendalldoescoding.gq/pages/presidents/index.html)
+[US Presidents Quiz](https://quiz.kendalldoescoding.tech/pages/presidents/index.html)
 
-[How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.gq/pages/kendall_quiz/index.html)
+[How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.tech/pages/kendall_quiz/index.html)
 
 # Quiz Length Breakdown
 
