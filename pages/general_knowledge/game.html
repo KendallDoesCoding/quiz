@@ -4,6 +4,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 
     <title>Quiz Page - General Knowledge</title>
 
@@ -57,6 +59,16 @@
           <p class="choice-prefix">D</p>
           <p class="choice-text" data-number="4">Choice 4</p>
         </div>
+      </div>
+    </div>
+    <div class="music">
+      <audio loop="loop" id="my_audio" preload="auto" autoplay>  
+        <source src="/music/music.mp3" type="audio/mpeg" autoplay> 
+      </audio>
+  
+      <div class="music-container flex-center flex-row">
+        <a onclick="document.getElementById('my_audio').play()" class="button1"> Music On <i class="fas fa-light fa-headphones"></i></a>
+        <a onclick="document.getElementById('my_audio').pause()" class="button2"> Music Off <i class="fas fa-light fa-volume-off"></i></a>
       </div>
     </div>
   </body>

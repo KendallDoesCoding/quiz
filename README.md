@@ -6,6 +6,13 @@ I made this quiz, following a YouTube tutorial online by [Brian Designs](https:/
 
 I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com/Hachikoi-the-creator) who made a huge revamp to this project (in v8.0.0)[Pull Request #29](https://github.com/KendallDoesCoding/quiz/pull/29).
 
+## Important
+Incase, music isn't playinf for you, please do the following steps:
+- Head over to to Google Sound Settings - https://chrome://settings/content/sound?search=Sound
+- Set it to "Sites can play sound"
+
+The issue should be fixed. Incase of any further issue, please file a [Bug Report](https://github.com/KendallDoesCoding/quiz/issues/new?assignees=&labels=%F0%9F%9B%A0+goal%3A+fix&template=bug.yml).
+
 # Links and Topics
 
 [Tutorial Video](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
