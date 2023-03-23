@@ -28,6 +28,8 @@ import robloxQA from "./roblox.js";
 import techQA from "./tech.js";
 import gameQA from "./game.js";
 
+import ProgramminglanguageQA from "./programminglanguage.js";
+
 export {
   browsersQA,
   xmasQA,
@@ -43,4 +45,5 @@ export {
   robloxQA,
   techQA,
   gameQA,
+  ProgramminglanguageQA
 };
