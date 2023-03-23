@@ -8,7 +8,7 @@ export default [
     answer: 1,
   },
   {
-    question: "What is the purpose of the "if" statement in Python?",
+    question: "What is the purpose of the \"if\" statement in Python?",
     choice1: "To define a loop",
     choice2: "To define a function",
     choice3: "To define a conditional statement",
@@ -35,7 +35,7 @@ export default [
   },
   {
     question:
-      "What does the "range" function in Python do?",
+      "What does the \"range\" function in Python do?",
     choice1: "Generates a list of numbers",
     choice2: "Defines a loop",
     choice3: "Returns the length of a list",
