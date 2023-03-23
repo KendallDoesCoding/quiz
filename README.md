@@ -51,7 +51,7 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 **Mini Quiz** - _3 Questions_ - Browsers Quiz, How Well Do You Know Kendall Quiz
 
-**Medium Quiz** - _5 questions_ - Tech Quiz, Disney Quiz, Country Quiz, U.S Presidents Quiz
+**Medium Quiz** - _5 questions_ - Tech Quiz, Disney Quiz, Country Quiz, U.S Presidents Quiz, Programming Language Quiz
 
 **Above Medium Quiz** - _7 questions_ - Roblox Quiz
 
