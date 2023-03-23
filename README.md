@@ -47,6 +47,8 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.tech/pages/kendall_quiz/index.html)
 
+[Programming Language Quiz](https://quiz.kendalldoescoding.tech/pages/programming_language/index.html)
+
 # Quiz Length Breakdown
 
 **Mini Quiz** - _3 Questions_ - Browsers Quiz, How Well Do You Know Kendall Quiz
