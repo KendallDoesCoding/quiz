@@ -215,7 +215,7 @@ window.onload = function () {
       // then return/don't send the message. The user is somehow hacking
       // to send messages. Or they just deleted the
       // localstorage themselves. But hacking sounds cooler!!
-      if (parent.get_name() == null && message == null) {
+      if (parent.get_name() === null && message === null) {
         return;
       }
 
@@ -238,7 +238,7 @@ window.onload = function () {
     // Get name. Gets the username from localStorage
     get_name() {
       // Get the name from localstorage
-      if (localStorage.getItem("name") != null) {
+      if (localStorage.getItem("name") !== null) {
         return localStorage.getItem("name");
       } else {
         this.home();
@@ -346,7 +346,7 @@ window.onload = function () {
   // If we have a name stored in localStorage.
   // Then use that name. Otherwise , if not.
   // Go to home.
-  if (app.get_name() != null) {
+  if (app.get_name() !== null) {
     app.chat();
   }
 };
