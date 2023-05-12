@@ -58,11 +58,11 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 **Above Medium Quiz** - _7 questions_ - Roblox Quiz
 
-**Normal Quiz** - _10 questions_ - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz, Youtube Quiz
+**Normal Quiz** - _10 questions_ - Minecraft Quiz, Fruit Quiz, Football Quiz, YouTube Quiz
 
 **Above Normal Quiz** - _13 questions_ - Easter Quiz
 
-**Mega Quiz** - _15 questions_ - Christmas Quiz
+**Mega Quiz** - _15 questions_ - Main Quiz, Christmas Quiz
 
 ---
 
