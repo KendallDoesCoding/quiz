@@ -21,6 +21,10 @@ document
   .addEventListener("click", () => toggleHidde("generalMore"));
 
 document
+  .getElementById("youtube")
+  .addEventListener("click", () => toggleHidde("youtubeMore"));
+
+document
   .getElementById("others")
   .addEventListener("click", () => toggleHidde("othersMore"));
 

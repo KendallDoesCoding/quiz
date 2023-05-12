@@ -29,6 +29,8 @@ import techQA from "./tech.js";
 import gameQA from "./game.js";
 
 import ProgramminglanguageQA from "./programminglanguage.js";
+import youtubeQA from "./youtube.js";
+
 
 export {
   browsersQA,
@@ -45,5 +47,6 @@ export {
   robloxQA,
   techQA,
   gameQA,
-  ProgramminglanguageQA
+  ProgramminglanguageQA,
+  youtubeQA,
 };

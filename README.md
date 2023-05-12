@@ -1,13 +1,14 @@
 # quiz
 
-
 Thanks for viewing the GitHub repo for my quiz.
 I made this quiz, following a YouTube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any "Javascript" files within the directory /data, because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
 
 I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com/Hachikoi-the-creator) who made a huge revamp to this project (in v8.0.0)[Pull Request #29](https://github.com/KendallDoesCoding/quiz/pull/29).
 
 ## Important
+
 Incase, music isn't playing for you, please do the following steps:
+
 - Head over to to Google Sound Settings - https://chrome://settings/content/sound?search=Sound
 - Set it to "Sites can play sound"
 
@@ -57,22 +58,24 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 **Above Medium Quiz** - _7 questions_ - Roblox Quiz
 
-**Normal Quiz** - _10 questions_ - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz
+**Normal Quiz** - _10 questions_ - Main Quiz, Minecraft Quiz, Fruit Quiz, Football Quiz, Youtube Quiz
 
 **Above Normal Quiz** - _13 questions_ - Easter Quiz
 
 **Mega Quiz** - _15 questions_ - Christmas Quiz
 
------
+---
+
 Also, if your wondering, no this is not the same quiz as [Quiz in .Bat](https://github.com/KendallDoesCoding/Quiz-in-.bat), it's much more improved with more topics, etc and a more modern day design rather then just a command line game.
------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Contributors
+
 Thanks to all our contributors for their active support and participation!
 
-<a href = "https://github.com/KendallDoesCoding/quiz">
-  <img src = "https://contrib.rocks/image?repo=KendallDoesCoding/quiz"/>
-</a>
+`<a href = "https://github.com/KendallDoesCoding/quiz">`
+  `<img src = "https://contrib.rocks/image?repo=KendallDoesCoding/quiz"/>`
+`</a>`
 
 # Sign off
 

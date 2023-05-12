@@ -116,6 +116,15 @@ body {
   background-image: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
 }
 
+/* YouTube */
+#youtube{
+  background-image: linear-gradient(90deg, #FF0000 0%, #FF4500 100%);
+}
+
+#youtube-btn {
+  background-image: linear-gradient(90deg, #4285F4 0%, #00BFFF 100%);
+}
+
 /* Others */
 #others {
   background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
