@@ -30,6 +30,7 @@ import gameQA from "./game.js";
 
 import ProgramminglanguageQA from "./programminglanguage.js";
 import youtubeQA from "./youtube.js";
+import TheOdd1sOutQA from "./TheOdd1sOut.js";
 
 
 export {
@@ -49,4 +50,5 @@ export {
   gameQA,
   ProgramminglanguageQA,
   youtubeQA,
+  TheOdd1sOutQA,
 };
