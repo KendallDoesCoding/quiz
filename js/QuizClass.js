@@ -1,13 +1,18 @@
+/**
+ * @dev Base class for every game, gets all the data that will use, and once the question is answered, everything is updated while poping out the question object from the array of quiestions, when it ends the resulting score is stored in local storage to keep tract of it while we change pages
+ */
 export class Quiz {
   constructor(dataQA = []) {
     this.dataQA = dataQA;
-    // initial game values
     this.QUESTION_VALUE = 100;
     this.QUESTIONS_AMOUNT = dataQA.length;
     this.barPercetage = 0;
     this.score = 0;
     this.answer = "";
     this.canClick = true;
+    this.noOfCorrect = 0;
+    this.TOTAL_CORRECT = 0;
+
     this.correctStreak = 0; // Tracks consecutive correct answers
     this.startTime = 0; // Stores the start time of each question
     // runs here because we want to load the first round of questions
@@ -60,7 +65,17 @@ export class Quiz {
 
   _endGame() {
     window.localStorage.setItem("mostRecentScore", this.score);
+    window.localStorage.setItem("noofanswerscorrect", this.noOfCorrect);
+    window.localStorage.setItem("noofquestions", this.QUESTIONS_AMOUNT);
+  
     window.location.assign("/pages/end.html");
+  }
+  
+  
+
+  _updateCorrectCount() {
+    this.TOTAL_CORRECT++;
+    console.log("Total Correct:", this.TOTAL_CORRECT);
   }
 
   checkAnswer(selected = 0, correct = 0) {
@@ -73,10 +88,13 @@ export class Quiz {
     if (selected === correct) {
       p.parentElement.classList.add("correct");
       this.score += this.QUESTION_VALUE;
+      this.noOfCorrect++;
+      this._updateCorrectCount();
       this.calculateTimeBonus();
       this.updateStreak();
     } else {
       p.parentElement.classList.add("incorrect");
+      this.score -= this.QUESTION_VALUE;
     }
 
     document.getElementById("score").textContent = this.score;
