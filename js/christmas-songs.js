@@ -1,5 +1,8 @@
 var songs = [
     "/music/christmas/AVeryMogulChristmas.mp3",
+    "/music/christmas/FelizNavidad.mp3",
+    "/music/christmas/DeckTheHalls.mp3",
+    "/music/christmas/It'sThatTimeOfTheYear.mp3",
   ];
 
   var audioElement = document.getElementById('my_audio');

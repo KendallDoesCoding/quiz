@@ -81,6 +81,8 @@ Music promoted by https://www.chosic.com/free-music/all
 - New Lands by Alex-Productions
 - Beach Vibes by Luke Bergs
 - Ukulele by Benjamin Tissot
+- Deck The Halls by Kevin Macleod
+- It's That Time Of The Year by Pecan Pie
 
 Further, the following songs are used (copyright free, no license required):
 
@@ -88,6 +90,7 @@ Further, the following songs are used (copyright free, no license required):
 - A Parisian Cafe by Aaron Kenny
 - Tropical Fever by Luke Bergs & LiQWYD
 - Happy African Village by John Bartmann
+- Feliz Navidad by Dan Barracuda
 
 ---
 
