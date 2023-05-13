@@ -33,11 +33,11 @@ export default [
     answer: 2,
   },
   {
-    question: "Households each spend how much on average on Easter annually?",
+    question: "Households each spend how much on average on Easter annually? ($=USD)",
     choice1: "$1,001",
-    choice2: "201$",
-    choice3: "820$",
-    choice4: "131",
+    choice2: "$201",
+    choice3: "$820",
+    choice4: "$131",
     answer: 4,
   },
   {
