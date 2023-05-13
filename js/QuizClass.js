@@ -1,6 +1,3 @@
-/**
- * @dev Base class for every game, gets all the data that will use, and once the question is answered, everything is updated while poping out the question object from the array of quiestions, when it ends the resulting score is stored in local storage to keep tract of it while we change pages
- */
 export class Quiz {
   constructor(dataQA = []) {
     this.dataQA = dataQA;
@@ -11,17 +8,17 @@ export class Quiz {
     this.score = 0;
     this.answer = "";
     this.canClick = true;
-    // runs here becasue we want to load the first round of questions
+    this.correctStreak = 0; // Tracks consecutive correct answers
+    this.startTime = 0; // Stores the start time of each question
+    // runs here because we want to load the first round of questions
     this._renderNewQuestion();
   }
 
-  // if there's questions left, return the last one
   _newQuestion() {
     if (this.getQuestionsLen === 0) this._endGame();
     return this.dataQA.pop();
   }
 
-  // takes care of managing the percentage green bar on top
   _renderPercentage() {
     const leftQA = this.dataQA.length;
     const percentage = (1 - leftQA / this.QUESTIONS_AMOUNT) * 100;
@@ -29,7 +26,6 @@ export class Quiz {
     document.getElementById("progressBarFull").style.width = `${percentage}%`;
   }
 
-  // need to calculate it based on the total amount, and remaining amount
   _renderQuestionNumber() {
     const leftQA = this.dataQA.length;
     const currentQA = this.QUESTIONS_AMOUNT - leftQA;
@@ -38,7 +34,6 @@ export class Quiz {
     paragraph.textContent = `Question ${currentQA} of ${this.QUESTIONS_AMOUNT}`;
   }
 
-  // get's a new question from newQuestion & renders it to the page
   _renderNewQuestion() {
     const currentQA = this._newQuestion();
     if (!currentQA) {
@@ -54,17 +49,16 @@ export class Quiz {
 
     this.answer = currentQA["answer"];
 
-    // render question && all options
     document.getElementById("question").textContent = currentQA["question"];
 
     pArray.forEach((p, i) => {
       p.textContent = currentQA[`choice${i + 1}`];
     });
+
+    this.startTimer(); // Start the timer for the new question
   }
 
-  // sends the user to the highscore.html and asks if they want to save their score
   _endGame() {
-    // console.log("GAME ENDED");
     window.localStorage.setItem("mostRecentScore", this.score);
     window.location.assign("/pages/end.html");
   }
@@ -73,24 +67,20 @@ export class Quiz {
     const p = document.querySelector(`[data-number="${selected}"]`);
 
     if (!this.canClick) {
-      // console.log("WAIT THERE BOI");
       return;
     }
 
     if (selected === correct) {
       p.parentElement.classList.add("correct");
       this.score += this.QUESTION_VALUE;
-      // console.log("NOICE: ", this.score);
+      this.calculateTimeBonus();
+      this.updateStreak();
     } else {
       p.parentElement.classList.add("incorrect");
-      this.score -= this.QUESTION_VALUE;
-      // console.log("BAKA GA!: ", this.score);
     }
 
-    // render updated score
     document.getElementById("score").textContent = this.score;
 
-    // delay stuff
     this.canClick = false;
 
     setTimeout(() => {
@@ -99,5 +89,41 @@ export class Quiz {
       p.parentElement.classList.remove("incorrect");
       p.parentElement.classList.remove("correct");
     }, 600);
+  }
+
+  startTimer() {
+    this.startTime = new Date().getTime();
+  }
+
+  calculateTimeBonus() {
+    const elapsed = new Date().getTime() - this.startTime;
+
+    if (elapsed <= 1000) {
+      this.score += 1000;
+    } else if (elapsed <= 5000) {
+      this.score += 500;
+    } else if (elapsed <= 10000) {
+      this.score += 100;
+    }
+  }
+
+  updateStreak() {
+    this.correctStreak++;
+
+    if (this.correctStreak === 2) {
+      this.score += 200;
+    } else if (this.correctStreak === 3) {
+      this.score += 300;
+    } else if (this.correctStreak === 5) {
+      this.score += 800;
+    } else if (this.correctStreak === 10) {
+      this.score += 1200;
+    } else if (this.correctStreak === 15) {
+      this.score += 1500;
+    } else if (this.correctStreak > 15) {
+      this.score += 1500; // Add 1500 points for each additional correct answer beyond 15
+    } else {
+      this.correctStreak = 1; // Reset the streak if the answer is not consecutive
+    }
   }
 }
