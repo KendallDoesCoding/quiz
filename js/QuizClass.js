@@ -88,7 +88,6 @@ export class Quiz {
       this.score += this.QUESTION_VALUE;
       // console.log("NOICE: ", this.score);
 
-      // my code
       this.noOfCorrect++;
       console.log(this.noOfCorrect);
     } else {
