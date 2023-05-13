@@ -17,14 +17,13 @@ export class Quiz {
     this.TOTAL_CORRECT = 0;
 
     this.correctStreak = 0; // Tracks consecutive correct answers
-    this.startTime = 0;     // Stores the start time of each question
+    this.startTime = 0; // Stores the start time of each question
     // runs here because we want to load the first round of questions
     this._renderNewQuestion();
   }
 
   _newQuestion() {
-    if (this.getQuestionsLen === 0)
-      this._endGame();
+    if (this.getQuestionsLen === 0) this._endGame();
     return this.dataQA.pop();
   }
 
@@ -60,7 +59,9 @@ export class Quiz {
 
     document.getElementById("question").textContent = currentQA["question"];
 
-    pArray.forEach((p, i) => { p.textContent = currentQA[`choice${i + 1}`]; });
+    pArray.forEach((p, i) => {
+      p.textContent = currentQA[`choice${i + 1}`];
+    });
 
     this.startTimer(); // Start the timer for the new question
   }
@@ -109,7 +110,9 @@ export class Quiz {
     }, 600);
   }
 
-  startTimer() { this.startTime = new Date().getTime(); }
+  startTimer() {
+    this.startTime = new Date().getTime();
+  }
 
   calculateTimeBonus() {
     const elapsed = new Date().getTime() - this.startTime;
@@ -137,11 +140,9 @@ export class Quiz {
     } else if (this.correctStreak === 15) {
       this.score += 1500;
     } else if (this.correctStreak > 15) {
-      this.score +=
-          1500; // Add 1500 points for each additional correct answer beyond 15
+      this.score += 1500; // Add 1500 points for each additional correct answer beyond 15
     } else {
-      this.correctStreak =
-          1; // Reset the streak if the answer is not consecutive
+      this.correctStreak = 1; // Reset the streak if the answer is not consecutive
     }
   }
 }
