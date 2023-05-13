@@ -18,9 +18,12 @@
     <div class="container">
       <div id="end" class="flex-center flex-column">
         <h1 id="finalScore">0</h1>
+        <div style="color: white; font-size: 30px; margin-bottom: 1rem;"><p>Yout choose <span id="noScore" style="font-size: 30px;">0</span>/15 correct</p></div>
         <form class="end-form-container">
           <h2 id="end-text">Enter your name below to save your score!</h2>
           <input type="text" name="name" id="username" placeholder="Enter your name" />
+          
+         
           <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>
             Save
           </button>

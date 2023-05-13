@@ -1,13 +1,17 @@
 const username = document.querySelector("#username");
 const saveScoreBtn = document.querySelector("#saveScoreBtn");
 const finalScore = document.querySelector("#finalScore");
+const noScore = document.querySelector("#noScore");
 const mostRecentScore = localStorage.getItem("mostRecentScore");
+const noOfCorrect = localStorage.getItem("noofanswerscorrect");
 
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
+noScore.innerText = noOfCorrect;
+
 
 username.addEventListener("keyup", () => {
   saveScoreBtn.disabled = !username.value;

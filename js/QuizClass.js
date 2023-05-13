@@ -11,6 +11,9 @@ export class Quiz {
     this.score = 0;
     this.answer = "";
     this.canClick = true;
+    this.noOfCorrect=0;
+
+
     // runs here becasue we want to load the first round of questions
     this._renderNewQuestion();
   }
@@ -66,7 +69,10 @@ export class Quiz {
   _endGame() {
     // console.log("GAME ENDED");
     window.localStorage.setItem("mostRecentScore", this.score);
+    window.localStorage.setItem("noofanswerscorrect", this.noOfCorrect);
+    
     window.location.assign("/pages/end.html");
+
   }
 
   checkAnswer(selected = 0, correct = 0) {
@@ -81,6 +87,10 @@ export class Quiz {
       p.parentElement.classList.add("correct");
       this.score += this.QUESTION_VALUE;
       // console.log("NOICE: ", this.score);
+
+      // my code
+      this.noOfCorrect++;
+      console.log(this.noOfCorrect);
     } else {
       p.parentElement.classList.add("incorrect");
       this.score -= this.QUESTION_VALUE;
