@@ -9,6 +9,7 @@ var songs = [
     "/music/sotb.mp3",
     "/music/tropicalfever.mp3",
     "/music/tropicalsoul.mp3",
+    "/music/ukulele.mp3",
   ];
 
   var audioElement = document.getElementById('my_audio');

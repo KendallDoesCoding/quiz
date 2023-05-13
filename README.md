@@ -80,6 +80,7 @@ Music promoted by https://www.chosic.com/free-music/all
 - Tropical Soul by Luke Bergs
 - New Lands by Alex-Productions
 - Beach Vibes by Luke Bergs
+- Ukulele by Benjamin Tissot
 
 Further, the following songs are used (copyright free, no license required):
 
