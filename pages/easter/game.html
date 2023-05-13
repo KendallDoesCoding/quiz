@@ -60,15 +60,15 @@
       </div>
     </div>
     <div class="music">
-      <audio loop="loop" id="my_audio" preload="auto" autoplay>  
-        <source src="/music/music.mp3" type="audio/mpeg" autoplay> 
+      <audio loop="loop" id="my_audio" preload="auto" autoplay>
+        <source id="audio_source" src="" type="audio/mpeg">
       </audio>
-  
+    
       <div class="music-container flex-center flex-row">
-        <a onclick="document.getElementById('my_audio').play()" class="button1"> Music On <i class="fas fa-light fa-headphones"></i></a>
-        <a onclick="document.getElementById('my_audio').pause()" class="button2"> Music Off <i class="fas fa-light fa-volume-off"></i></a>
+        <a onclick="toggleMusic()" class="button1" id="musicOnButton" style="display: none;"> Music On <i class="fas fa-light fa-headphones"></i></a>
+        <a onclick="pauseMusic()" class="button2"> Music Off <i class="fas fa-light fa-volume-off"></i></a>
       </div>
     </div>
   </body>
-
+  <script src="/js/songs.js"></script>
 </html>

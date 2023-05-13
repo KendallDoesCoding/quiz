@@ -3,6 +3,8 @@
 Thanks for viewing the GitHub repo for my quiz.
 I made this quiz, following a YouTube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any "Javascript" files within the directory /data, because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
 
+Also, if your wondering, no this is not the same quiz as [Quiz in .Bat](https://github.com/KendallDoesCoding/Quiz-in-.bat), it's much more improved with more topics, etc and a more modern day design rather then just a command line game.
+
 I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com/Hachikoi-the-creator) who made a huge revamp to this project (in v8.0.0)[Pull Request #29](https://github.com/KendallDoesCoding/quiz/pull/29).
 
 ## Important
@@ -44,7 +46,9 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [Country Quiz](https://quiz.kendalldoescoding.tech/pages/countries/index.html)
 
-[US Presidents Quiz](https://quiz.kendalldoescoding.tech/pages/presidents/index.html)
+[U.S Presidents Quiz](https://quiz.kendalldoescoding.tech/pages/presidents/index.html)
+
+[YouTube Quiz](https://quiz.kendalldoescoding.tech/pages/youtube/index.html)
 
 [How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.tech/pages/kendall_quiz/index.html)
 
@@ -64,10 +68,27 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 **Mega Quiz** - _15 questions_ - Main Quiz, Christmas Quiz
 
----
+# Music
 
-Also, if your wondering, no this is not the same quiz as [Quiz in .Bat](https://github.com/KendallDoesCoding/Quiz-in-.bat), it's much more improved with more topics, etc and a more modern day design rather then just a command line game.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The following songs are licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0.
+Music promoted by https://www.chosic.com/free-music/all
+
+- Fluffing a Duck by Kevin Macleod
+- Happy and Joyful Children
+- Bliss by Luke Bergs
+- Tropical Soul by Luke Bergs
+- New Lands by Alex-Productions
+- Beach Vibes by Luke Bergs
+
+Further, the following songs are used (copyright free, no license required):
+
+- Snake On The Beach by Nico Staf
+- A Parisian Cafe by Aaron Kenny
+- Tropical Fever by Luke Bergs & LiQWYD
+- Happy African Village by John Bartmann
+
+---
 
 # Contributors
 
