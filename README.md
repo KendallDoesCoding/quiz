@@ -66,7 +66,7 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 **Above Normal Quiz** - _13 questions_ - Easter Quiz
 
-**Mega Quiz** - _15 questions_ - Main Quiz, Christmas Quiz
+**Mega Quiz** - _15 questions_ - Main Quiz, Christmas Quiz, TheOdd1sOut Quiz
 
 # Music
 
