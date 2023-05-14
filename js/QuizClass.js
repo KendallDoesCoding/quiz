@@ -13,6 +13,9 @@ export class Quiz {
     this.noOfCorrect = 0;
     this.TOTAL_CORRECT = 0;
 
+    this.correctStreak = 0; // Tracks consecutive correct answers
+    this.startTime = 0; // Stores the start time of each question
+    // runs here because we want to load the first round of questions
     this._renderNewQuestion();
   }
 
@@ -56,6 +59,8 @@ export class Quiz {
     pArray.forEach((p, i) => {
       p.textContent = currentQA[`choice${i + 1}`];
     });
+
+    this.startTimer(); // Start the timer for the new question
   }
 
   _endGame() {
@@ -85,6 +90,8 @@ export class Quiz {
       this.score += this.QUESTION_VALUE;
       this.noOfCorrect++;
       this._updateCorrectCount();
+      this.calculateTimeBonus();
+      this.updateStreak();
     } else {
       p.parentElement.classList.add("incorrect");
       this.score -= this.QUESTION_VALUE;
@@ -100,5 +107,41 @@ export class Quiz {
       p.parentElement.classList.remove("incorrect");
       p.parentElement.classList.remove("correct");
     }, 600);
+  }
+
+  startTimer() {
+    this.startTime = new Date().getTime();
+  }
+
+  calculateTimeBonus() {
+    const elapsed = new Date().getTime() - this.startTime;
+
+    if (elapsed <= 1000) {
+      this.score += 1000;
+    } else if (elapsed <= 5000) {
+      this.score += 500;
+    } else if (elapsed <= 10000) {
+      this.score += 100;
+    }
+  }
+
+  updateStreak() {
+    this.correctStreak++;
+
+    if (this.correctStreak === 2) {
+      this.score += 200;
+    } else if (this.correctStreak === 3) {
+      this.score += 300;
+    } else if (this.correctStreak === 5) {
+      this.score += 800;
+    } else if (this.correctStreak === 10) {
+      this.score += 1200;
+    } else if (this.correctStreak === 15) {
+      this.score += 1500;
+    } else if (this.correctStreak > 15) {
+      this.score += 1500; // Add 1500 points for each additional correct answer beyond 15
+    } else {
+      this.correctStreak = 1; // Reset the streak if the answer is not consecutive
+    }
   }
 }
