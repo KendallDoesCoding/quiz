@@ -98,9 +98,8 @@ Further, the following songs are used (copyright free, no license required):
 
 Thanks to all our contributors for their active support and participation!
 
-`<a href = "https://github.com/KendallDoesCoding/quiz">`
-  `<img src = "https://contrib.rocks/image?repo=KendallDoesCoding/quiz"/>`
-`</a>`
+<a href = "https://github.com/KendallDoesCoding/quiz">
+  <img src = "https://contrib.rocks/image?repo=KendallDoesCoding/quiz"/></a>
 
 # Sign off
 
