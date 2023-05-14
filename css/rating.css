@@ -1,4 +1,56 @@
 body {
-  background-color: darkgray;
-  user-select: none;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: green;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: gold;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="email"],
+input[type="number"],
+textarea {
+  resize: none;
+}
+
+button {
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
 }
