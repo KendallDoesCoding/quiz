@@ -27,10 +27,11 @@ import robloxQA from "./roblox.js";
 
 import techQA from "./tech.js";
 import gameQA from "./game.js";
-
 import ProgramminglanguageQA from "./programminglanguage.js";
+
 import youtubeQA from "./youtube.js";
 import TheOdd1sOutQA from "./TheOdd1sOut.js";
+import JaidenAnimationsQA from "./JaidenAnimations.js";
 
 
 export {
@@ -51,4 +52,5 @@ export {
   ProgramminglanguageQA,
   youtubeQA,
   TheOdd1sOutQA,
+  JaidenAnimationsQA,
 };
