@@ -54,19 +54,40 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [Programming Language Quiz](https://quiz.kendalldoescoding.tech/pages/programming_language/index.html)
 
+[TheOdd1sOut Quiz](https://quiz.kendalldoescoding.tech/pages/theodd1sout/index.html)
+
+[Jaiden Animations Quiz](https://quiz.kendalldoescoding.tech/pages/jaidenanimations/index.html)
+
 # Quiz Length Breakdown
 
-**Mini Quiz** - _3 Questions_ - Browsers Quiz, How Well Do You Know Kendall Quiz
+## Mini Quiz - _3 Questions_ 
+- Browsers Quiz
+- How Well Do You Know Kendall Quiz
 
-**Medium Quiz** - _5 questions_ - Tech Quiz, Disney Quiz, Country Quiz, U.S Presidents Quiz, Programming Language Quiz
+## Medium Quiz - _5 questions_
+- Tech Quiz
+- Disney Quiz
+- Country Quiz
+- U.S Presidents Quiz
+- Programming Language Quiz
 
-**Above Medium Quiz** - _7 questions_ - Roblox Quiz
+## Above Medium Quiz - _7 questions_ 
+- Roblox Quiz
 
-**Normal Quiz** - _10 questions_ - Minecraft Quiz, Fruit Quiz, Football Quiz, YouTube Quiz
+## Normal Quiz - _10 questions_ 
+- Minecraft Quiz
+- Fruit Quiz
+- Football Quiz
+- YouTube Quiz
+- Jaiden Animations Quiz
 
-**Above Normal Quiz** - _13 questions_ - Easter Quiz
+## Above Normal Quiz - _13 questions_
+- Easter Quiz
 
-**Mega Quiz** - _15 questions_ - Main Quiz, Christmas Quiz, TheOdd1sOut Quiz
+## Mega Quiz - _15 questions_ 
+- Main Quiz
+- Christmas Quiz
+- TheOdd1sOut Quiz
 
 # Music
 
