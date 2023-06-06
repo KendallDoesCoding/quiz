@@ -14,7 +14,6 @@ body {
   border-radius: 4px;
   background: rgb(18, 93, 255);
   font-size: 3rem;
-  min-width: 80rem;
 }
 
 .choice-container:hover {
@@ -79,10 +78,4 @@ body {
   height: 100%;
   background: rgb(11, 223, 36);
   width: 0%;
-}
-
-@media screen and (max-width: 768px) {
-  .choice-container {
-    min-width: 40rem;
-  }
 }
