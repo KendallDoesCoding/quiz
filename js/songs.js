@@ -12,35 +12,39 @@ var songs = [
   "/music/ukulele.mp3",
 ];
 
-var audioElement = document.getElementById('my_audio');
-var musicOnButton = document.getElementById('musicOnButton');
-let musicOffButton = document.getElementById('musicOffButton');
+var audioElement = document.getElementById("my_audio");
+var musicOnButton = document.getElementById("musicOnButton");
+let musicOffButton = document.getElementById("musicOffButton");
 
 function playMusic() {
   var randomIndex = Math.floor(Math.random() * songs.length);
-  var audioSource = document.getElementById('audio_source');
+  var audioSource = document.getElementById("audio_source");
   audioSource.src = songs[randomIndex];
   audioElement.load();
 
-  audioElement.addEventListener('canplaythrough', () => {
-    audioElement.play().catch(function(error) {
-      console.log('Error playing audio:', error);
-      pauseMusic();
-    });
-    musicOnButton.style.display = 'none';
-    musicOffButton.style.display = 'block';
-  }, {once : true});
+  audioElement.addEventListener(
+    "canplaythrough",
+    () => {
+      audioElement.play().catch(function (error) {
+        console.log("Error playing audio:", error);
+        pauseMusic();
+      });
+      musicOnButton.style.display = "none";
+      musicOffButton.style.display = "block";
+    },
+    { once: true }
+  );
 
-  audioElement.addEventListener('pause', () => {
-    musicOnButton.style.display = 'block';
-    musicOffButton.style.display = 'none';
+  audioElement.addEventListener("pause", () => {
+    musicOnButton.style.display = "block";
+    musicOffButton.style.display = "none";
   });
 }
 
 function pauseMusic() {
   audioElement.pause();
-  musicOnButton.style.display = 'block';
-  musicOffButton.style.display = 'none';
+  musicOnButton.style.display = "block";
+  musicOffButton.style.display = "none";
 }
 
 function toggleMusic() {
@@ -52,4 +56,6 @@ function toggleMusic() {
 }
 
 // Play music on page load
-window.addEventListener('load', function() { playMusic(); });
+window.addEventListener("load", function () {
+  playMusic();
+});
