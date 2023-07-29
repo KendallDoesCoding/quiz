@@ -14,7 +14,7 @@ var songs = [
 
   var audioElement = document.getElementById('my_audio');
   var musicOnButton = document.getElementById('musicOnButton');
-  var musicOffButton = document.getElementById('musicOffButton');
+  let musicOffButton = document.getElementById('musicOffButton');
 
   function playMusic() {
     var randomIndex = Math.floor(Math.random() * songs.length);
@@ -22,7 +22,7 @@ var songs = [
     audioSource.src = songs[randomIndex];
     audioElement.load();
 
-    audioElement.addEventListener('canplaythrough', function() {
+    audioElement.addEventListener('canplaythrough', () => {
       audioElement.play().catch(function(error) {
         console.log('Error playing audio:', error);
         pauseMusic();
@@ -31,7 +31,7 @@ var songs = [
       musicOffButton.style.display = 'block';
     }, { once: true });
 
-    audioElement.addEventListener('pause', function() {
+    audioElement.addEventListener('pause', () => {
       musicOnButton.style.display = 'block';
       musicOffButton.style.display = 'none';
     });
