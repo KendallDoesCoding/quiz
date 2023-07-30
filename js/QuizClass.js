@@ -92,9 +92,13 @@ export class Quiz {
       this._updateCorrectCount();
       this.calculateTimeBonus();
       this.updateStreak();
+      document.getElementById('score').classList.add('green-score');
+      document.getElementById('addPoints').style.display = 'block';
     } else {
       p.parentElement.classList.add("incorrect");
       this.score -= this.QUESTION_VALUE;
+      document.getElementById('score').classList.add('red-score');
+      document.getElementById('subPoints').style.display = 'block';
     }
 
     document.getElementById("score").textContent = this.score;
@@ -106,6 +110,10 @@ export class Quiz {
       this.canClick = true;
       p.parentElement.classList.remove("incorrect");
       p.parentElement.classList.remove("correct");
+      document.getElementById('score').classList.remove('green-score');
+      document.getElementById('score').classList.remove('red-score');
+      document.getElementById('subPoints').style.display = 'none';
+      document.getElementById('addPoints').style.display = 'none';
     }, 600);
   }
 
