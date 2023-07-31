@@ -22,19 +22,23 @@ const playMusic = () => {
   audioElement.load();
 
   // Update the AudioElement to handle playing the song
-  audioElement.addEventListener("canplaythrough", () => {
-    try {
-      audioElement.play();
-      musicOnButton.style.display = "none";
-      musicOffButton.style.display = "block";
-    } catch (err) {
-      pauseMusic();
-      throw err;
-    }
-  }, {once : true});
+  audioElement.addEventListener(
+    "canplaythrough",
+    () => {
+      try {
+        audioElement.play();
+        musicOnButton.style.display = "none";
+        musicOffButton.style.display = "block";
+      } catch (err) {
+        pauseMusic();
+        throw err;
+      }
+    },
+    { once: true }
+  );
 
   // Update the AudioElement to handle pausing the song
-  audioElement.addEventListener("pause", function() {
+  audioElement.addEventListener("pause", function () {
     musicOnButton.style.display = "block";
     musicOffButton.style.display = "none";
   });
@@ -58,4 +62,6 @@ const toggleMusic = () => {
 };
 
 // Play music on page load
-window.addEventListener("load", () => { playMusic(); });
+window.addEventListener("load", () => {
+  playMusic();
+});

@@ -16,43 +16,46 @@ let audioElement = document.getElementById("my_audio");
 let musicOnButton = document.getElementById("musicOnButton");
 let musicOffButton = document.getElementById("musicOffButton");
 
-const playMusic =
+const playMusic = () => {
+  var randomIndex = Math.floor(Math.random() * songs.length);
+  var audioSource = document.getElementById("audio_source");
+  audioSource.src = songs[randomIndex];
+  audioElement.load();
+
+  audioElement.addEventListener(
+    "canplaythrough",
     () => {
-      var randomIndex = Math.floor(Math.random() * songs.length);
-      var audioSource = document.getElementById("audio_source");
-      audioSource.src = songs[randomIndex];
-      audioElement.load();
-
-      audioElement.addEventListener("canplaythrough", () => {
-        audioElement.play().catch(error => {
-          console.log("Error playing audio:", error);
-          pauseMusic();
-        });
-        musicOnButton.style.display = "none";
-        musicOffButton.style.display = "block";
-      }, {once : true});
-
-      audioElement.addEventListener("pause", () => {
-        musicOnButton.style.display = "block";
-        musicOffButton.style.display = "none";
-      });
-    }
-
-const pauseMusic =
-    () => {
-      audioElement.pause();
-      musicOnButton.style.display = "block";
-      musicOffButton.style.display = "none";
-    }
-
-const toggleMusic =
-    () => {
-      if (audioElement.paused) {
-        playMusic();
-      } else {
+      audioElement.play().catch((error) => {
+        console.log("Error playing audio:", error);
         pauseMusic();
-      }
-    }
+      });
+      musicOnButton.style.display = "none";
+      musicOffButton.style.display = "block";
+    },
+    { once: true }
+  );
 
-          // Play music on page load
-          window.addEventListener("load", () => { playMusic(); });
+  audioElement.addEventListener("pause", () => {
+    musicOnButton.style.display = "block";
+    musicOffButton.style.display = "none";
+  });
+};
+
+const pauseMusic = () => {
+  audioElement.pause();
+  musicOnButton.style.display = "block";
+  musicOffButton.style.display = "none";
+};
+
+const toggleMusic = () => {
+  if (audioElement.paused) {
+    playMusic();
+  } else {
+    pauseMusic();
+  }
+};
+
+// Play music on page load
+window.addEventListener("load", () => {
+  playMusic();
+});
