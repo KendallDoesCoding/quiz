@@ -22,14 +22,18 @@ function playMusic() {
   audioSource.src = songs[randomIndex];
   audioElement.load();
 
-  audioElement.addEventListener("canplaythrough", () => {
-    audioElement.play().catch(function(error) {
-      console.log("Error playing audio:", error);
-      pauseMusic();
-    });
-    musicOnButton.style.display = "none";
-    musicOffButton.style.display = "block";
-  }, {once : true});
+  audioElement.addEventListener(
+    "canplaythrough",
+    () => {
+      audioElement.play().catch(function (error) {
+        console.log("Error playing audio:", error);
+        pauseMusic();
+      });
+      musicOnButton.style.display = "none";
+      musicOffButton.style.display = "block";
+    },
+    { once: true }
+  );
 
   audioElement.addEventListener("pause", () => {
     musicOnButton.style.display = "block";
@@ -52,4 +56,6 @@ function toggleMusic() {
 }
 
 // Play music on page load
-window.addEventListener("load", function() { playMusic(); });
+window.addEventListener("load", function () {
+  playMusic();
+});
