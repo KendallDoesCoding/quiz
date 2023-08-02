@@ -33,6 +33,8 @@ import youtubeQA from "./youtube.js";
 import TheOdd1sOutQA from "./TheOdd1sOut.js";
 import JaidenAnimationsQA from "./JaidenAnimations.js";
 
+import instrumentsQA from "./instruments.js";
+
 
 export {
   browsersQA,
@@ -53,4 +55,5 @@ export {
   youtubeQA,
   TheOdd1sOutQA,
   JaidenAnimationsQA,
+  instrumentsQA,
 };

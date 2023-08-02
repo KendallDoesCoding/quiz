@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <title>Quiz Page - instruments</title>
+
+    <link rel="stylesheet" href="../../css/index.css" />
+    <link rel="stylesheet" href="../../css/game.css" />
+    <script type="module" defer>
+      import { instrumentsQA } from "../../js/data/index.js";
+      import { Quiz } from "../../js/QuizClass.js";
+
+      const QuizInstance = new Quiz(instrumentsQA);
+
+      document.addEventListener("click", (e) => {
+        if (e.target.dataset.number) {
+          QuizInstance.checkAnswer(+e.target.dataset.number, QuizInstance.answer);
+        }
+      });
+    </script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div class="hud-item">
+            <p id="progressText" class="hud-prefix">Question</p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div class="hud-item">
+            <p class="hud-prefix">Score</p>
+            <h1 class="hud-main-text" id="score">0</h1>
+          </div>
+        </div>
+        <h1 id="question">What is the answer to this question</h1>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+      </div>
+    </div>
+    <div class="music">
+      <audio loop="loop" id="my_audio" preload="auto" autoplay>
+        <source id="audio_source" src="" type="audio/mpeg">
+      </audio>
+    
+      <div class="music-container flex-center flex-row">
+        <a onclick="toggleMusic()" class="button1" id="musicOnButton" style="display: none;"> Music On <i class="fas fa-light fa-headphones"></i></a>
+        <a onclick="pauseMusic()" class="button2"> Music Off <i class="fas fa-light fa-volume-off"></i></a>
+      </div>
+    </div>
+  </body>
+  <script src="/js/songs.js"></script>
+</html>
