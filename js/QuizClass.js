@@ -7,12 +7,14 @@ export class Quiz {
     this.QUESTION_VALUE = 100;
     this.QUESTIONS_AMOUNT = dataQA.length;
     this.barPercetage = 0;
+    this.streakPoints = 0;
+    this.timePoints = 0;
     this.score = 0;
     this.answer = "";
     this.canClick = true;
     this.noOfCorrect = 0;
     this.TOTAL_CORRECT = 0;
-
+    
     this.correctStreak = 0; // Tracks consecutive correct answers
     this.startTime = 0; // Stores the start time of each question
     // runs here because we want to load the first round of questions
@@ -126,10 +128,13 @@ export class Quiz {
 
     if (elapsed <= 1000) {
       this.score += 1000;
-    } else if (elapsed <= 5000) {
+      this.timePoints = 1000;
+        } else if (elapsed <= 5000) {
       this.score += 500;
+      this.timePoints = 500;
     } else if (elapsed <= 10000) {
       this.score += 100;
+      this.timePoints = 100;
     }
   }
 
@@ -138,18 +143,100 @@ export class Quiz {
 
     if (this.correctStreak === 2) {
       this.score += 200;
+      this.streakPoints = 300;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
     } else if (this.correctStreak === 3) {
       this.score += 300;
-    } else if (this.correctStreak === 5) {
+      this.streakPoints = 400;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    } else if (this.correctStreak === 4) {
+      this.score += 300;
+      this.streakPoints = 400;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 5) {
       this.score += 800;
-    } else if (this.correctStreak === 10) {
+      this.streakPoints = 900;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    } else if (this.correctStreak === 6) {
+      this.score += 800;
+      this.streakPoints = 900;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 7) {
+      this.score += 800;
+      this.streakPoints = 900;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 8) {
+      this.score += 800;
+      this.streakPoints = 900;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 9) {
+      this.score += 800;
+      this.streakPoints = 900;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 10) {
       this.score += 1200;
+      this.streakPoints = 1300;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 11) {
+      this.score += 1200;
+      this.streakPoints = 1300;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 12) {
+      this.score += 1200;
+      this.streakPoints = 1300;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 13) {
+      this.score += 1200;
+      this.streakPoints = 1300;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    }else if (this.correctStreak === 14) {
+      this.score += 1200;
+      this.streakPoints = 1300;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
     } else if (this.correctStreak === 15) {
       this.score += 1500;
+      this.streakPoints = 1600;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
     } else if (this.correctStreak > 15) {
       this.score += 1500; // Add 1500 points for each additional correct answer beyond 15
-    } else {
-      this.correctStreak = 1; // Reset the streak if the answer is not consecutive
+      this.streakPoints = 1600;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
+    } else if (this.correctStreak = 1){
+      this.score += 100;// Reset the streak if the answer is not consecutive
+      this.streakPoints = 200;
+      this.bonusPoints = this.streakPoints + this.timePoints
+      this.displayText = "+" + this.bonusPoints;
+      document.getElementById("addPoints").textContent = this.displayText;
     }
   }
 }
