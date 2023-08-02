@@ -11,6 +11,7 @@
  */
 import browsersQA from "./browsers.js";
 import xmasQA from "./christmas.js";
+import computerpartsQA from "./computerparts.js";
 import countriesQA from "./countries.js";
 
 import disneyQA from "./disney.js";
@@ -40,6 +41,7 @@ export {
   browsersQA,
   xmasQA,
   countriesQA,
+  computerpartsQA,
   disneyQA,
   easterQA,
   footballQA,
