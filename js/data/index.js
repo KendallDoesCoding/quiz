@@ -20,6 +20,7 @@ import footballQA from "./football.js";
 
 import fruitQA from "./fruit.js";
 import generalQA from "./general.js";
+import instrumentsQA from "./instruments.js";
 import kendallQA from "./kendall_quiz.js";
 
 import minecraftQA from "./minecraft.js";
@@ -45,6 +46,7 @@ export {
   footballQA,
   fruitQA,
   generalQA,
+  instrumentsQA,
   kendallQA,
   minecraftQA,
   presidentsQA,
