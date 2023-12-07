@@ -1,8 +1,8 @@
-const toggleHidde = (containerId) => {
+function toggleHidde(containerId) {
   // removes one & adds the other
   document.getElementById(containerId).classList.toggle("hide");
   document.getElementById(containerId).classList.toggle("show");
-};
+}
 
 document
   .getElementById("technology")
