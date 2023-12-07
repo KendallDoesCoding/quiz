@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-    <link rel="icon" type="image/x-icon" href="../../images/Game.ico">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="../../images/Game.ico" />
 
     <title>Quiz Page - Minecraft</title>
 
@@ -21,11 +24,13 @@
 
       document.addEventListener("click", (e) => {
         if (e.target.dataset.number) {
-          QuizInstance.checkAnswer(+e.target.dataset.number, QuizInstance.answer);
+          QuizInstance.checkAnswer(
+            +e.target.dataset.number,
+            QuizInstance.answer
+          );
         }
       });
     </script>
-
   </head>
 
   <body>
@@ -41,6 +46,8 @@
           <div class="hud-item">
             <p class="hud-prefix">Score</p>
             <h1 class="hud-main-text" id="score">0</h1>
+            <p id="addPoints" class="hud-item"></p>
+            <p id="subPoints" class="hud-item">-100</p>
           </div>
         </div>
         <h1 id="question">What is the answer to this question</h1>
@@ -64,12 +71,21 @@
     </div>
     <div class="music">
       <audio loop="loop" id="my_audio" preload="auto" autoplay>
-        <source id="audio_source" src="" type="audio/mpeg">
+        <source id="audio_source" src="" type="audio/mpeg" />
       </audio>
 
       <div class="music-container flex-center flex-row">
-        <a onclick="toggleMusic()" class="button1" id="musicOnButton" style="display: none;"> Music On <i class="fas fa-light fa-headphones"></i></a>
-        <a onclick="pauseMusic()" class="button2" id="musicOffButton"> Music Off <i class="fas fa-light fa-volume-off"></i></a>
+        <a
+          onclick="toggleMusic()"
+          class="button1"
+          id="musicOnButton"
+          style="display: none"
+        >
+          Music On <i class="fas fa-light fa-headphones"></i
+        ></a>
+        <a onclick="pauseMusic()" class="button2">
+          Music Off <i class="fas fa-light fa-volume-off"></i
+        ></a>
       </div>
     </div>
   </body>
