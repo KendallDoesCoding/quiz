@@ -1,4 +1,4 @@
-# quiz
+# Quiz
 
 Thanks for viewing the GitHub repo for my quiz.
 I made this quiz, following a YouTube tutorial online by [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A). You can explore this repo, although if you want to do the quiz yourself, I suggest you don't open any "Javascript" files within the directory /data, because the .JS file there has all the answers to the quiz. I may delete the games directory, and create a private repo where I have everything + games directory, but for now that will cause me double work, so its fine as it is :).
@@ -11,20 +11,23 @@ I would like to give a big shoutout to [@Hacikoi-the-creator](https://github.com
 
 Incase, music isn't playing for you, please do the following steps:
 
-- Head over to to Google Sound Settings - https://chrome://settings/content/sound?search=Sound
+- Head over to to Google Sound Settings - <https://chrome://settings/content/sound?search=Sound>
 - Set it to "Sites can play sound"
 
 The issue should be fixed. Incase of any further issue, please file a [Bug Report](https://github.com/KendallDoesCoding/quiz/issues/new?assignees=&labels=%F0%9F%9B%A0+goal%3A+fix&template=bug.yml).
 
 # Links and Topics
 
-[Tutorial Video](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+#### [Tutorial Video](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 
-[Quiz Question Suggestion Template](https://www.youtube.com/watch?v=KrGfq0vXEkc)
+#### [Quiz Question Suggestion Template](https://www.youtube.com/watch?v=KrGfq0vXEkc)
 
-[Quiz Website](https://kendalldoescoding.tech/pages/quiz/index.html)
+#### [Quiz Website](https://kendalldoescoding.tech/pages/quiz/index.html)
 
-[Quiz Topics](https://quiz.kendalldoescoding.tech/pages/topics/index.html)
+#### [Quiz Topics](https://quiz.kendalldoescoding.tech/pages/topics/index.html)
+
+<details>
+  <summary>Check more Quiz types</summary>
 
 [Tech Quiz](https://quiz.kendalldoescoding.tech/pages/tech/index.html)
 
@@ -58,42 +61,58 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [Jaiden Animations Quiz](https://quiz.kendalldoescoding.tech/pages/jaidenanimations/index.html)
 
-# Quiz Length Breakdown
+</details>
 
-## Mini Quiz - _3 Questions_ 
+## Quiz Length Breakdown
+
+<details>
+
+### Mini Quiz - _3 Questions_
+
 - Browsers Quiz
 - How Well Do You Know Kendall Quiz
 
-## Medium Quiz - _5 questions_
+### Medium Quiz - _5 questions_
+
 - Tech Quiz
 - Disney Quiz
 - Country Quiz
 - U.S Presidents Quiz
 - Programming Language Quiz
 
-## Above Medium Quiz - _7 questions_ 
+### Above Medium Quiz - _7 questions_
+
 - Roblox Quiz
 
-## Normal Quiz - _10 questions_ 
+### Normal Quiz - _10 questions_
+
 - Minecraft Quiz
 - Fruit Quiz
 - Football Quiz
 - YouTube Quiz
 - Jaiden Animations Quiz
 
-## Above Normal Quiz - _13 questions_
+### Above Normal Quiz - _13 questions_
+
 - Easter Quiz
 
-## Mega Quiz - _15 questions_ 
+### Mega Quiz - _15 questions_
+
 - Main Quiz
 - Christmas Quiz
 - TheOdd1sOut Quiz
 
+</details>
+
+# Contributing to this Project
+
+Please follow the guidelines [here](./CONTRIBUTING.md) to contribute.
+
 # Music
 
 The following songs are licensed under Creative Commons: By Attribution 3.0 License
-http://creativecommons.org/licenses/by/3.0.
-Music promoted by https://www.chosic.com/free-music/all
+<http://creativecommons.org/licenses/by/3.0>.
+Music promoted by <https://www.chosic.com/free-music/all>
 
 - Fluffing a Duck by Kevin Macleod
 - Happy and Joyful Children
@@ -128,4 +147,4 @@ Thanks for your support,
 
 Kendall Does Coding,
 
-kendall@kendalldoescoding.tech
+<kendall@kendalldoescoding.tech>
