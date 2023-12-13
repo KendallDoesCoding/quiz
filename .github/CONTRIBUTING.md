@@ -56,4 +56,4 @@ By contributing, you agree that your contributions will be licensed under the pr
 
 ## Contact
 
-If you have any questions or need further assistance, feel free to contact us at <kendall@kendalldoescoding.tech>.
+If you have any questions or need further assistance, feel free to contact us at <kendalldoescoding@gmail.com>.
