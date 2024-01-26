@@ -110,3 +110,18 @@ body {
     opacity: 0;
   }
 }
+#timer-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#timer-prefix {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000; /* Set the color of the timer */
+}
