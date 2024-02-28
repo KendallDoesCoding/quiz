@@ -1,53 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>End Page</title>
 
-  <title>End Page</title>
+    <script src="../js/end.js" defer></script>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/end.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="../images/Main.ico" />
+  </head>
 
-  <script src="../js/end.js" defer></script>
-  <link rel="stylesheet" href="../css/index.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-    <link rel="icon" type="image/x-icon" href="../images/Main.ico">
-</head>
+  <body>
+  
+  <div id="top-banner-end">
+    <a href="\index.html">
+      <i class="fas fa-home" id="house"></i>
+      <div id="back-home"></div>
+    </a>
+    <div id="maindrop">
+      <div id="sidedrop">
+        <div id="home" class="flex-column flex-center">
+          <a href="game.html" class="btn">Play</a>
+          <a href="game.html" class="btn1">🎮</a>
+          <a href="topics.html" id="topics-btn" class="btn">Topics </a>
+          <a href="topics.html" id="topics-btn1" class="btn1">📜</a>
+          <a href="highscores.html" id="highscore-btn" class="btn"
+            >Leaderboard</a
+          >
+          <a href="highscores.html" id="highscore-btn1" class="btn1">🥇</a>
 
-<body>
-  <div class="container">
+          <a href="rules.html" id="rules-btn" class="btn">Rules</a>
+
+          <a href="rules.html" id="rules-btn1" class="btn1">📝</a>
+          <a href="suggestion.html" id="suggestion-btn" class="btn"
+            >Suggestions</a
+          >
+          <a href="suggestion.html" id="suggestion-btn1" class="btn1">✍️</a>
+
+          <a
+            href="https://github.com/KendallDoesCoding/quiz/releases"
+            target="_blank"
+            id="releases-btn"
+            class="btn"
+            >Releases</a
+          >
+          <a
+            href="https://github.com/KendallDoesCoding/quiz/releases"
+            target="_blank"
+            id="releases-btn1"
+            class="btn1"
+            >🗂️</a
+          >
+        </div>
+      </div>
+      <div id="drop1"></div>
+      <div id="drop2"></div>
+      <div id="drop3"></div>
+    </div>
+  </div>
+  <div id="middle-container">
+<div class="container">
     <div id="end" class="flex-center flex-column">
       <h1 id="finalScore">0</h1>
+      
       <div style="color: white; font-size: 30px; margin-bottom: 1rem;">
-        <p>You got <span id="noScore" style="font-size: 30px;">0</span> correct. </p>
+        <p id="noScore-container">You got <span id="noScore">0</span> correct. </p>
 
       </div>
       <form class="end-form-container">
-        <h2 id="end-text">Enter your name below to save your score!</h2>
+       
         <input type="text" name="name" id="username" placeholder="Enter your name" />
 
         <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>
           Save
         </button>
       </form>
-
-      <p class="btn" onclick="goBack(-1)">Play Again</p>
-
-      <p onclick="goBack(-2)" class="btn" target="_blank">Go back to Quiz Home Page Menu<i class="fas fa-home"></i>
-      </p>
-      <a href="../pages/rating.html" class="btn" target="_blank">Please rate our quiz!<i class="far fa-star"></i></a>
+     <div id="divider-line"></div>
+      <p id="go-back-end" class="btn" onclick="goBack(-1)">Play again!</p>
+      <a href="../pages/rating.html" id="rate-quiz-end"class="btn" target="_blank">Rate our quiz!</a>
+      <a href="../pages/highscores.html" id="highscore-quiz-end"class="btn" target="_blank">See your highscores!</a>  
     </div>
   </div>
+  </div>
 </body>
+ 
 
-<script>
-  const totalScore = localStorage.getItem("noofquestions");
-  document.getElementById("totalScore").textContent = totalScore;
+    <script>
+      const totalScore = localStorage.getItem("noofquestions");
+      document.getElementById("totalScore").textContent = totalScore;
 
-  function goBack(n) {
-    history.go(n);
-  }
-</script>
-
+      function goBack(n) {
+        history.go(n);
+      }
+    </script>
+  </body>
 </html>

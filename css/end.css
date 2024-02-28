@@ -1,0 +1,313 @@
+#top-banner-end{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:5vw;
+    background-color: black;
+}
+#back-home{
+    background-color:rgb(43, 43, 43);
+    position: absolute;
+    top:1vw;
+    left:0.9vw;
+    width: 3vw;
+    height:3vw;
+    z-index: 2;
+    border-radius:0.3vw;
+  }
+  #house{
+    width:1vw;
+    height:1vw;
+    position: absolute;
+    top:1.5vw;
+    left:0.8vw;
+    font-size:2vw;
+    color:rgb(255, 255, 255);
+    z-index: 3;
+}
+#maindrop{
+  
+  position: absolute;
+  width: 3vw;
+  height: 2.5vw;
+  top:1.5vw;
+}
+#drop1{
+  background-color: white;
+  position: absolute;
+  width: 3vw;
+  height: 0.23vw;
+  top:0.1vw;
+  right:0vw;
+  /* pointer-events: none; */
+}
+#drop2{
+  background-color: white;
+  position: absolute;
+  width: 3vw;
+  height: 0.23vw;
+  top:1.1vw;
+  right:0vw;
+  /* pointer-events: none; */
+}
+#drop3{
+  background-color: white;
+  position: absolute;
+  width: 3vw;
+  height: 0.23vw;
+  top:2.1vw;
+  right:0vw;
+  /* pointer-events: none; */
+}
+#sidedrop{
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: rgb(250, 250, 250);
+  right:-2vw;
+  top: -3.5vh;
+  overflow:hidden;
+  transition: width 1s, height 1s;
+  
+}
+#maindrop:hover #sidedrop{
+  height: 100vh;
+  width: 800%;
+  
+}
+#maindrop:hover #drop1{
+  background-color:black;
+}
+#maindrop:hover #drop2{
+  background-color:black;
+}
+#maindrop:hover #drop3{
+  background-color:black;
+}
+.btn{
+  text-decoration: none;
+  font-size:2.5vw;
+  position:absolute;
+  top:7vw;
+  left:6vw;
+  color:black;
+  font-family:sans-serif;
+  font-style:italic;
+  
+}
+#topics-btn{
+  text-decoration: none;
+  font-size:2.5vw;
+  position:absolute;
+  top:13vw;
+  right:vw;
+  color:black;
+  font-family:sans-serif; 
+  font-style:italic; 
+ 
+}
+#rules-btn{
+  text-decoration: none;
+  font-size:2.5vw;
+  position:absolute;
+  top:19vw;
+  right:9vw;
+  color:black;
+  font-family:sans-serif;
+  font-style:italic;
+  
+}
+#suggestion-btn{
+  text-decoration: none;
+  font-size:2.5vw;
+  position:absolute;
+  top:25vw;
+  right:9vw;
+  color:black;
+  font-family:sans-serif;
+  font-style:italic;
+ 
+}
+#highscore-btn{
+  text-decoration: none;
+  font-size:2.5vw;
+  position:absolute;
+  top:31vw;
+  right:9vw;
+  color:black;
+  font-family:sans-serif;
+  font-style:italic;
+  
+  }
+#releases-btn{
+  text-decoration: none;
+  font-size:2.5vw;
+  position:absolute;
+  top:37vw;
+  right:9vw;
+  color:black;
+  font-family:sans-serif;
+  font-style:italic;
+ 
+}
+.btn:hover{
+  text-decoration: underline;
+}
+
+#topics-btn:hover{
+  text-decoration: underline;
+}
+#rules-btn:hover{
+  text-decoration: underline;
+}
+#suggestion-btn:hover{
+  text-decoration: underline;
+}
+#highscore-btn:hover{
+  text-decoration: underline;
+}
+#releases-btn:hover{
+  text-decoration: underline;
+}
+.btn1{
+  position:absolute;
+  top:6.7vw;
+  left:2vw;
+  font-size:2.5vw;
+  text-decoration:none;
+}
+#topics-btn1{
+  text-decoration:none;
+  top: 12.7vw;
+  left:2vw;
+  font-size:2.5vw;
+}
+#rules-btn1{
+  text-decoration:none;
+  top: 18.7vw;
+  left:2vw;
+  font-size:2.5vw;
+}
+#suggestion-btn1{
+  text-decoration:none;
+  top: 24.7vw;
+  left:2vw;
+  font-size:2.5vw;
+}
+#highscore-btn1{
+  text-decoration:none;
+  top: 30.7vw;
+  left:2vw;
+  font-size:2.5vw;
+}
+#releases-btn1{
+  text-decoration:none;
+  top: 36.7vw;
+  left:2vw;
+  font-size:2.5vw;
+}
+#middle-container{
+    background-color: black;
+    position: absolute;
+    left:39vw;
+    top:12vw;
+    width:20vw;
+    height: 30vw;;
+    box-shadow: 1vw 1vw 4vw rgb(70, 70, 70);
+    border-radius:1vw;
+}
+#finalScore{
+    padding-top: 1.3vw;
+    z-index:2;
+    
+    text-shadow: 0.2vw 0.2vw#505050;
+    font-size:2.6vw;
+}
+#noScore-container{
+    color:#505050;
+    position: absolute;
+    top:5.4vw;
+   width:15vw;
+    font-size:1vw;
+    left:5.3vw;
+}
+#noScore{
+    color:rgb(21, 255, 0);
+    font-size:1.5vw;
+}
+.end-form-container{
+    position: absolute;
+    top:8vw;
+}
+
+#username{
+    position: absolute;
+    top:0.6vw;
+    width:17vw;
+    height:3vw;
+}
+#saveScoreBtn{
+    position: absolute;
+    background-color: rgb(21, 255, 0);
+    top:4.5vw;
+    left:-0.6vw;
+    width:17vw;
+    font-size:1vw;
+    height:3vw;
+    font-style: normal;
+    border-radius: 0.5vw;;
+   color:rgba(0, 0, 0, 0.719);
+   cursor: pointer;
+}
+#divider-line{
+    position: absolute;
+    width: 15vw;
+    height:0.01vw;
+    background-color: #ffffff;
+    top:17vw;
+    border-radius: 1vw;;
+}
+#go-back-end{
+    position: absolute;
+    top:18.5vw;
+    color:white;
+    font-size:1vw;
+    font-style:normal;
+    width:17vw;
+    height:3vw;
+    background-color: rgba(56, 56, 56, 0.808);
+    text-align: center;
+    border-radius:0.5vw;;
+    left:1.6vw;
+    padding-top:0.9vw;
+    cursor:pointer;
+}
+#rate-quiz-end{
+    position: absolute;
+    top:21.9vw;
+    color:white;
+    font-size:1vw;
+    font-style:normal;
+    width:17vw;
+    height:3vw;
+    background-color: rgba(56, 56, 56, 0.808);
+    text-align: center;
+    border-radius:0.5vw;;
+    left:1.6vw;
+    padding-top:0.9vw;
+}
+
+#highscore-quiz-end{
+    position: absolute;
+    top: 25.3vw;
+    color:white;
+    font-size:1vw;
+    font-style:normal;
+    width:17vw;
+    height:3vw;
+    background-color: rgba(56, 56, 56, 0.808);
+    text-align: center;
+    border-radius:0.5vw;;
+    left:1.6vw;
+    padding-top:0.9vw;
+}

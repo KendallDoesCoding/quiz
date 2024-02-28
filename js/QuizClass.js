@@ -14,11 +14,11 @@ export class Quiz {
     this.canClick = true;
     this.noOfCorrect = 0;
     this.TOTAL_CORRECT = 0;
-    
     this.correctStreak = 0; // Tracks consecutive correct answers
     this.startTime = 0; // Stores the start time of each question
     // runs here because we want to load the first round of questions
     this._renderNewQuestion();
+    
   }
 
   _newQuestion() {
@@ -38,7 +38,10 @@ export class Quiz {
     const currentQA = this.QUESTIONS_AMOUNT - leftQA;
     const paragraph = document.getElementById("progressText");
 
-    paragraph.textContent = `Question ${currentQA} of ${this.QUESTIONS_AMOUNT}`;
+    paragraph.textContent = `0${currentQA}/${this.QUESTIONS_AMOUNT}`;
+      if (currentQA > 9){
+     paragraph.textContent = `${currentQA}/${this.QUESTIONS_AMOUNT}`;
+   }
   }
 
   _renderNewQuestion() {
@@ -82,10 +85,12 @@ export class Quiz {
 
   checkAnswer(selected = 0, correct = 0) {
     const p = document.querySelector(`[data-number="${selected}"]`);
-
+    
     if (!this.canClick) {
       return;
     }
+
+ 
 
     if (selected === correct) {
       p.parentElement.classList.add("correct");
@@ -96,11 +101,15 @@ export class Quiz {
       this.updateStreak();
       document.getElementById('score').classList.add('green-score');
       document.getElementById('addPoints').style.display = 'block';
+      console.log(p.parentElement)
+      p.parentElement.style.backgroundColor = 'green';
+
     } else {
       p.parentElement.classList.add("incorrect");
       this.score -= this.QUESTION_VALUE;
       document.getElementById('score').classList.add('red-score');
       document.getElementById('subPoints').style.display = 'block';
+      p.parentElement.style.backgroundColor = 'red';
     }
 
     document.getElementById("score").textContent = this.score;
@@ -116,6 +125,7 @@ export class Quiz {
       document.getElementById('score').classList.remove('red-score');
       document.getElementById('subPoints').style.display = 'none';
       document.getElementById('addPoints').style.display = 'none';
+       p.parentElement.style.backgroundColor = 'black';
     }, 600);
   }
 
