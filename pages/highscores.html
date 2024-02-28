@@ -4,7 +4,6 @@ does it compiles every single score regardless of category or is there supposed 
 given that the scores are not stored in any db I'd suppose the 1st is true-->
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,22 +11,114 @@ given that the scores are not stored in any db I'd suppose the 1st is true-->
 
     <title>High Scores</title>
 
-    <link rel="icon" type="image/x-icon" href="../images/Main.ico">
-    <script src="../js/highscores.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="../images/Main.ico" />
+
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/highscores.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
-    <div class="container">
-      <div id="highScores" class="flex-center flex-column">
-        <h1 id="finalScore">Leaderboard</h1>
-        <ul id="highScoresList"></ul>
-        <a href="../index.html" class="btn">Go Back to Main Quiz Menu<i class="fas fa-home"></i></a>
+    <div class="confetti-container">
+    <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg" id="svg">
+      <path
+        d="M 0 50 Q 50 10, 100 50 T 200 50 T 300 50 T 400 50 T 500 50"
+        id="path"
+      />
+    </svg>
+    <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg" id="svg1">
+      <path
+        d="M 0 50 Q 50 10, 100 50 T 200 50 T 300 50 T 400 50 T 500 50"
+        id="path1"
+      />
+    </svg>
+    <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg" id="svg2">
+      <path
+        d="M 0 50 Q 50 10, 100 50 T 200 50 T 300 50 T 400 50 T 500 50"
+        id="path2"
+      />
+    </svg>
+    <div id="top-banner-highscores">
+      <a href="\index.html">
+        <i class="fas fa-home" id="house"></i>
+        <div id="back-home"></div>
+      </a>
+      <h1 id="Leaderboard">Leaderboard</h1>
+    </div>
+    <div id="highScores" class="flex-center flex-column">
+      <ol id="highScoresList"></ol>
+    </div>
+    <div id="confetti-thrower-semi-circle"></div>
+    <div id="confetti-thrower"></div>
+    <div id="squiggy-line-1"></div>
+    <div id="squiggy-line-2"></div>
+    <div id="squiggy-line-3"></div>
+    <div id="confetti-thrower-1"></div>
+    <div id="confetti-thrower-2"></div>
+    <div id="confetti-thrower-3"></div>
+    <div id="confetti-thrower-4"></div>
+    <div id="leaderboard-container">
+      <div id="leaderboard-container-1">
+        <div id="confetti-1"></div>
+        <div id="confetti-2"></div>
+        <div id="confetti-3"></div>
+        <div id="confetti-4"></div>
+        <div id="confetti-5"></div>
+        <div id="confetti-6"></div>
+        <div id="confetti-7"></div>
+        <div id="confetti-8"></div>
+        <div id="confetti-9"></div>
       </div>
+      <div id="leaderboard-container-2"></div>
+      <div id="leaderboard-container-3"></div>
+      <div id="leaderboard-container-4"></div>
+      <div id="leaderboard-container-5"></div>
+    </div>
+    <div id="maindrop">
+      <div id="sidedrop">
+        <div id="home" class="flex-column flex-center">
+          <a href="game.html" class="btn">Play</a>
+          <a href="game.html" class="btn1">🎮</a>
+          <a href="topics.html" id="topics-btn" class="btn">Topics </a>
+          <a href="topics.html" id="topics-btn1" class="btn1">📜</a>
+          <a href="highscores.html" id="highscore-btn" class="btn"
+            >Leaderboard</a
+          >
+          <a href="highscores.html" id="highscore-btn1" class="btn1">🥇</a>
+
+          <a href="rules.html" id="rules-btn" class="btn">Rules</a>
+
+          <a href="rules.html" id="rules-btn1" class="btn1">📝</a>
+          <a href="suggestion.html" id="suggestion-btn" class="btn"
+            >Suggestions</a
+          >
+          <a href="suggestion.html" id="suggestion-btn1" class="btn1">✍️</a>
+
+          <a
+            href="https://github.com/KendallDoesCoding/quiz/releases"
+            target="_blank"
+            id="releases-btn"
+            class="btn"
+            >Releases</a
+          >
+          <a
+            href="https://github.com/KendallDoesCoding/quiz/releases"
+            target="_blank"
+            id="releases-btn1"
+            class="btn1"
+            >🗂️</a
+          >
+        </div>
+      </div>
+      <div id="drop1"></div>
+      <div id="drop2"></div>
+      <div id="drop3"></div>
     </div>
   </body>
-
+  <script src="../js/highscores.js" defer></script>
 </html>
