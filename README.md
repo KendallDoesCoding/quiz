@@ -37,8 +37,6 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [Easter Quiz](https://quiz-game-by-kendall.netlify.app/pages/easter/)
 
-[Christmas Quiz](https://quiz-game-by-kendall.netlify.app/pages/christmasquiz/)
-
 [Browsers Quiz](https://quiz-game-by-kendall.netlify.app/pages/browsers/)
 
 [Disney Quiz](https://quiz-game-by-kendall.netlify.app/pages/disney/)
@@ -53,13 +51,9 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [YouTube Quiz](https://quiz-game-by-kendall.netlify.app/pages/youtube/)
 
-[How Well Do You Know Kendall? Quiz](https://quiz-game-by-kendall.netlify.app/pages/kendall_quiz/)
-
 [Programming Language Quiz](https://quiz-game-by-kendall.netlify.app/pages/programming_language/)
 
 [TheOdd1sOut Quiz](https://quiz-game-by-kendall.netlify.app/pages/theodd1sout/)
-
-[Jaiden Animations Quiz](https://quiz-game-by-kendall.netlify.app/pages/jaidenanimatons/)
 
 </details>
 
