@@ -37,7 +37,11 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [Easter Quiz](https://quiz-game-by-kendall.netlify.app/pages/easter/)
 
+[Christmas Quiz](https://quiz-game-by-kendall.netlify.app/pages/christmas/)
+
 [Browsers Quiz](https://quiz-game-by-kendall.netlify.app/pages/browsers/)
+
+[Computer Parts Quiz](https://quiz-game-by-kendall.netlify.app/pages/computer_parts/)
 
 [Disney Quiz](https://quiz-game-by-kendall.netlify.app/pages/disney/)
 
@@ -53,7 +57,11 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 [Programming Language Quiz](https://quiz-game-by-kendall.netlify.app/pages/programming_language/)
 
+[Jaiden Animations Quiz](https://quiz-game-by-kendall.netlify.app/pages/jaidenanimations/)
+
 [TheOdd1sOut Quiz](https://quiz-game-by-kendall.netlify.app/pages/theodd1sout/)
+
+[How Well Do You Know Kendall Quiz](https://quiz-game-by-kendall.netlify.app/pages/kendall-quiz/)
 
 </details>
 
@@ -64,6 +72,7 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 ### Mini Quiz - _3 Questions_
 
 - Browsers Quiz
+- How Well Do You Know Kendall Quiz
 
 ### Medium Quiz - _5 questions_
 
@@ -83,14 +92,17 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 - Fruit Quiz
 - Football Quiz
 - YouTube Quiz
+- Jaiden Animations Quiz
   
 ### Above Normal Quiz - _13 questions_
 
 - Easter Quiz
+- Computer Parts Quiz (14 questions)
 
 ### Mega Quiz - _15 questions_
 
 - Main Quiz
+- Christmas Quiz
 - TheOdd1sOut Quiz
 
 </details>
