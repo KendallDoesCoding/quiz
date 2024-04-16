@@ -64,7 +64,6 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 ### Mini Quiz - _3 Questions_
 
 - Browsers Quiz
-- How Well Do You Know Kendall Quiz
 
 ### Medium Quiz - _5 questions_
 
@@ -84,8 +83,7 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 - Fruit Quiz
 - Football Quiz
 - YouTube Quiz
-- Jaiden Animations Quiz
-
+  
 ### Above Normal Quiz - _13 questions_
 
 - Easter Quiz
@@ -93,7 +91,6 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 ### Mega Quiz - _15 questions_
 
 - Main Quiz
-- Christmas Quiz
 - TheOdd1sOut Quiz
 
 </details>
