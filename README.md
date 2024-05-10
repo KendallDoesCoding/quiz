@@ -22,44 +22,46 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 
 #### [Quiz Question Suggestion Template](https://www.youtube.com/watch?v=KrGfq0vXEkc)
 
-#### [Quiz Website](https://kendalldoescoding.tech/pages/quiz/index.html)
+#### [Quiz Website](https://quiz-game-by-kendall.netlify.app/)
 
-#### [Quiz Topics](https://quiz.kendalldoescoding.tech/pages/topics/index.html)
+#### [Quiz Topics](https://quiz-game-by-kendall.netlify.app/pages/topics)
 
 <details>
   <summary>Check more Quiz types</summary>
 
-[Tech Quiz](https://quiz.kendalldoescoding.tech/pages/tech/index.html)
+[Tech Quiz](https://quiz-game-by-kendall.netlify.app/pages/tech/)
 
-[Minecraft Quiz](https://quiz.kendalldoescoding.tech/pages/minecraft/index.html)
+[Minecraft Quiz](https://quiz-game-by-kendall.netlify.app/pages/minecraft/)
 
-[Roblox Quiz](https://quiz.kendalldoescoding.tech/pages/roblox/index.html)
+[Roblox Quiz](https://quiz-game-by-kendall.netlify.app/pages/roblox/)
 
-[Easter Quiz](https://quiz.kendalldoescoding.tech/pages/easter/index.html)
+[Easter Quiz](https://quiz-game-by-kendall.netlify.app/pages/easter/)
 
-[Christmas Quiz](https://kendalldoescoding.tech/pages/christmasquiz/index.html)
+[Christmas Quiz](https://quiz-game-by-kendall.netlify.app/pages/christmas/)
 
-[Browsers Quiz](https://quiz.kendalldoescoding.tech/pages/browsers/index.html)
+[Browsers Quiz](https://quiz-game-by-kendall.netlify.app/pages/browsers/)
 
-[Disney Quiz](https://quiz.kendalldoescoding.tech/pages/disney/index.html)
+[Computer Parts Quiz](https://quiz-game-by-kendall.netlify.app/pages/computer_parts/)
 
-[Fruit Quiz](https://quiz.kendalldoescoding.tech/pages/fruit/index.html)
+[Disney Quiz](https://quiz-game-by-kendall.netlify.app/pages/disney/)
 
-[Football Quiz](https://quiz.kendalldoescoding.tech/pages/football/index.html)
+[Fruit Quiz](https://quiz-game-by-kendall.netlify.app/pages/fruit/)
 
-[Country Quiz](https://quiz.kendalldoescoding.tech/pages/countries/index.html)
+[Football Quiz](https://quiz-game-by-kendall.netlify.app/pages/football/)
 
-[U.S Presidents Quiz](https://quiz.kendalldoescoding.tech/pages/presidents/index.html)
+[Country Quiz](https://quiz-game-by-kendall.netlify.app/pages/countries/)
 
-[YouTube Quiz](https://quiz.kendalldoescoding.tech/pages/youtube/index.html)
+[U.S Presidents Quiz](https://quiz-game-by-kendall.netlify.app/pages/presidents/)
 
-[How Well Do You Know Kendall? Quiz](https://quiz.kendalldoescoding.tech/pages/kendall_quiz/index.html)
+[YouTube Quiz](https://quiz-game-by-kendall.netlify.app/pages/youtube/)
 
-[Programming Language Quiz](https://quiz.kendalldoescoding.tech/pages/programming_language/index.html)
+[Programming Language Quiz](https://quiz-game-by-kendall.netlify.app/pages/programming_language/)
 
-[TheOdd1sOut Quiz](https://quiz.kendalldoescoding.tech/pages/theodd1sout/index.html)
+[Jaiden Animations Quiz](https://quiz-game-by-kendall.netlify.app/pages/jaidenanimations/)
 
-[Jaiden Animations Quiz](https://quiz.kendalldoescoding.tech/pages/jaidenanimations/index.html)
+[TheOdd1sOut Quiz](https://quiz-game-by-kendall.netlify.app/pages/theodd1sout/)
+
+[How Well Do You Know Kendall Quiz](https://quiz-game-by-kendall.netlify.app/pages/kendall-quiz/)
 
 </details>
 
@@ -91,10 +93,11 @@ The issue should be fixed. Incase of any further issue, please file a [Bug Repor
 - Football Quiz
 - YouTube Quiz
 - Jaiden Animations Quiz
-
+  
 ### Above Normal Quiz - _13 questions_
 
 - Easter Quiz
+- Computer Parts Quiz (14 questions)
 
 ### Mega Quiz - _15 questions_
 
