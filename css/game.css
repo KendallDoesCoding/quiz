@@ -1,54 +1,27 @@
 body {
   color: #fff;
-  user-select: none;
+ user-select: none;
 }
 
 .container h2 {
   color: #fff;
 }
 
-.choice-container {
-  display: flex;
-  width: 80%;
-  margin: 0 auto 0.8rem auto;
-  border-radius: 4px;
-  background: rgb(18, 93, 255);
-  font-size: 3rem;
-}
-
-.choice-container:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
-  transform: scale(1.02);
-  transform: transform 100ms;
+.choice-text {
+  padding: 2rem;
+  width: 100%;
+  font-size:2vw;
+  padding-top: 1.3vw;
+  font-weight:lighter;
 }
 
 .choice-prefix {
   padding: 2rem 2.5rem;
   color: white;
+  font-size:2vw;
+  padding-top:1.3vw;
+  font-weight:bolder;
 }
-
-.choice-text {
-  padding: 2rem;
-  width: 100%;
-}
-
-.correct {
-  background: linear-gradient(
-    32deg,
-    rgba(11, 223, 36) 0%,
-    rgb(41, 232, 111) 100%
-  );
-}
-
-.incorrect {
-  background: linear-gradient(
-    32deg,
-    rgba(230, 29, 29, 1) 0%,
-    rgb(224, 11, 11, 1) 100%
-  );
-}
-
 /* Heads up Display */
 #hud {
   padding: 1rem;
@@ -56,22 +29,34 @@ body {
   justify-content: space-between;
 }
 
-.hud-prefix {
-  text-align: center;
-  font-size: 2rem;
+#progressText{
+  position: absolute;
+  top:0.5vw;
+   color:rgb(255, 255, 255);
+   font-size:2vw;
+   right: 0.3vw;
+  
 }
 
-.hud-main-text {
+#score {
   text-align: center;
+ color:rgb(255, 255, 255);
+ position: absolute;
+ top:0.4vw;
+ right:0.7vw;
+ font-size:2vw;
 }
 
 #progressBar {
-  width: 20rem;
-  height: 3rem;
-  border: 0.2rem solid rgb(11, 223, 36);
-  margin-top: 2rem;
-  border-radius: 50px;
+  width: 30vw;  ;
+  height: 3vw;
+  border: 0.1vw solid rgb(65, 248, 86);
+  margin-top: 1vw;
+  border-radius: 1vw;
   overflow: hidden;
+  position:absolute;
+ top:0vw;
+ left: 35vw;
 }
 
 #progressBarFull {
@@ -89,19 +74,19 @@ body {
 #addPoints{
   display:none;
   position: relative;
-  right:90px;
+  right:3vw;
   color:green;
-  font-size: 20px;
-  top: -100px;
+  font-size: 2vw;;
+  top: 3vw;
   animation: ripple-animation 0.6s linear;
 }
 #subPoints{
   display:none;
   position: relative;
-  right:90px;
+  right:3vw;
   color:red;
-  font-size: 20px;
-  top: -100px;
+  font-size: 2vw;
+  top: 3vw;
   animation: ripple-animation 0.6s linear;
 }
 @keyframes ripple-animation {
@@ -109,4 +94,131 @@ body {
     transform: scale(2);
     opacity: 0;
   }
+}
+#question{
+  color:black;
+  font-weight:lighter;
+  margin-bottom: 5vw;;
+
+}
+#musicOnButton{
+  cursor:pointer;
+  font-size:2vw;
+position:absolute;
+top:0.6vw;
+left:0.4vw;
+
+}
+#musicOffButton{
+  cursor:pointer;
+  font-size:2vw;
+position:absolute;
+top:0.6vw;
+left:0.4vw;
+
+}
+.hud-prefix{
+  font-size:2vw;
+  position: absolute;
+  top:1.4vw;
+  right:7.6vw;
+  color:rgb(255, 255, 255);
+  font-weight:bolder;
+  z-index: 1;
+  font-weight:lighter;
+}
+#back-home{
+  background-color:rgb(43, 43, 43);
+  position: absolute;
+  top:1vw;
+  left:0.9vw;
+  width: 3vw;
+  height:3vw;
+  z-index: 2;
+  border-radius:0.3vw;
+}
+.choice-container {
+  display: flex;
+  width: 95%;
+  margin: 0 auto 0.8rem auto;
+  border-radius: 0.6vw;
+  background: rgb(0, 0, 0);
+  font-size: 3rem;
+  height:5vw;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+#house{
+  width:1vw;
+  height:1vw;
+  position: absolute;
+  top:1.5vw;
+  left:0.8vw;
+  font-size:2vw;
+  color:rgb(255, 255, 255);
+  z-index: 3;
+}
+#topbanner-game{
+  background-color: black;
+  position: absolute;
+  top:0vw;
+  width:100%;
+  height:5vw;
+}
+#hud-main-text-container{
+  position: absolute;
+  top:1vw;
+  right:1vw;
+  background-color: rgb(43, 43, 43);
+  height:3vw;
+  width:13vw;
+  border-radius: 0.3vw;
+}
+#music-container{
+  position:absolute;
+  top:1vw;
+  left:5vw;
+  width:3vw;
+  height:3vw;
+  background-color: rgb(43, 43, 43);
+  border-radius: 0.3vw;;
+}
+#progressText-container{
+  position: absolute;
+  top:1vw;
+  left:9vw;
+  background-color: rgb(43, 43, 43) ;
+  width:5.6vw;
+  height:3vw;
+  border-radius: 0.3vw;
+  
+}
+#bottombanner-game{
+  position: absolute;
+  bottom:0vw;
+  width:100%;
+  height:5vw;
+  background-color: black;
+}
+#bonne-chance-2{
+ color:rgb(255, 255, 255);
+ position: absolute;
+ top:1vw;
+ left:38vw;
+ font-style: italic;
+ font-size:3vw;
+}
+#bonne-chance-1{
+  color:rgb(78, 78, 78);
+ position: absolute;
+ top:1vw;
+ left:38.5vw;
+ font-style: italic;
+ font-size:3vw;
 }

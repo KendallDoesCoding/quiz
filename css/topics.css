@@ -1,165 +1,266 @@
-body {
-  user-select: none;
+#house{
+  color:rgb(255, 255, 255);
+  font-size: 2vw;
+  position: absolute;
+  top:2vw;
+  left:0.9vw;
+  z-index: 3;
+}
+#back-home{
+  position: absolute;
+  top:1.49vw;
+  left:1vw;
+  width:3vw;
+  height:3vw;
+  background-color: rgb(43, 43, 43);
+  border-radius: 0.3vw;;
+}
+#top-banner-topics{
+  width:100%;
+  position: absolute;
+  top:0vw;
+  height:6vw;
+  background-color: black;
+}
+#quiz-topics{
+  color:white;
+  position: absolute;
+  top:0.7vw;
+  font-size:4vw;
+  left:39vw;
+  font-style: italic;
+  z-index: 2;
+  font-weight: lighter;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(255, 255, 255);
+ 
 }
 
-.hide {
-  display: none;
-  /* width: 0; */
-}
 
-#home {
-  width: 300px;
-  margin: 0 auto;
+#topics-browsers{
+  position: absolute;
+  top:8vw;
+  left:8.8vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
 }
-
-.show {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
+#topics-christmas{
+  position: absolute;
+  top:8vw;
+  left:22.5vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
 }
-
-/* need to overite width from .btn in css/index.css */
-.show > a {
-  width: 100%;
-  position: relative;
-  left: 20px;
+#topics-computerParts{
+  position: absolute;
+  top:8vw;
+  left:36.2vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
 }
-
-/* GRADIENTS */
-/* technology */
-#technology {
-  background-image: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+#topics-countries{
+  position: absolute;
+  top:8vw;
+  left:49.9vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
 }
-
-#tech-btn {
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
+#topics-disney{
+  position: absolute;
+  top:8vw;
+  left:63.6vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
 }
-
-#browsers-btn {
-  background-image: linear-gradient(
-    109.6deg,
-    rgba(61, 245, 167, 1) 11.2%,
-    rgba(9, 111, 224, 1) 91.1%
-  );
+#topics-easter{
+  position: absolute;
+  top:8vw;
+  left:77.3vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
 }
-
-#Computer-btn{
+#topics-football{
+  position: absolute;
+  top:21.7vw;
+  left:8.8vw; 
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-fruit{
+  position: absolute;
+  top:21.7vw;
+  left:22.5vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-gk{
+  position: absolute;
+  top:21.7vw;
+  left:36.2vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-ja{
+  position: absolute;
+  top:21.7vw;
+  left:49.9vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-kq{
+  position: absolute;
+  top:21.7vw;
+  left:63.6vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-mc{
+  position: absolute;
+  top:21.7vw;
+  left:77.3vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-presidents{
+  position: absolute;
+  top:35.4vw;
+  left:8.8vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-pl{
+  position: absolute;
+  top:35.4vw;
+  left:22.5vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-roblox{
+  position: absolute;
+  top:35.4vw;
+  left:36.2vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-tech{
+  position: absolute;
+  top:35.4vw;
+  left:49.9vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-o1o{
+  position: absolute;
+  top:35.4vw;
+  left:63.6vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
+}
+#topics-youtube{
+  position: absolute;
+  top:35.4vw;
+  left:77.3vw;
+  width:13.5vw;
+  height:13.5vw;
+  background-color: black;
+  border-radius: 1vw;;
   
-background-image: linear-gradient(
-  90deg, 
-  rgba(214,224,35,1) 0%, 
-  rgba(152,194,30,1) 29%, 
-  rgba(255,89,0,1) 100%);
 }
-
-/* Games */
-#games {
-  background-image: linear-gradient(135deg, #f05f57 10%, #360940 100%);
+img{
+  width: 90%;
+  height:7.5vw;
+  position: absolute;
+  top:0.5vw;
+  left:0.7vw;
+  border-radius:1vw;
 }
-
-#minecraft-btn {
-  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+#kendall-img{
+  width:60%;
+  height:7.5vw;
+  position: absolute;
+  top:0.5vw;
+  left:2.6vw;
+  border-radius:1vw;
 }
-
-#roblox-btn {
-  background-image: radial-gradient(
-    circle,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(101, 102, 104, 1) 100%
-  );
+#topics-text{
+  font-size:1.1vw;
+  margin-top:8.5vw;
+  font-weight: 700;
 }
-
-#football-btn {
-  background-image: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(236, 103, 103, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+#topics-button{
+  position: absolute;
+  bottom:2vw;
+  background-color:rgb(43, 43, 43) ;
+  width:80%;
+  height:2.6vw;
+  border-radius: 0.8vw;
+  bottom:0.5vw;
+  left:1.4vw; 
+  cursor: pointer;
 }
-
-/* Festivals */
-#festivals {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(14, 174, 87, 1) 0%,
-    rgba(12, 116, 117, 1) 90%
-  );
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 0.2vw 0.2vw 0;
+  display: inline-block;
+  padding: 0.4vw;
+  position: absolute;
+  top:0.8vw;
+  right:4.8vw;
+  transition-duration: 500ms;
 }
-
-#easter-btn {
-  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
-
-#christmas-btn {
-  background-image: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  );
+#topics-pointer{
+  position: absolute;
+  width:1.5vw;
+  height:0.15vw;
+  background-color: white;
+  top:1.2vw;
+  left:4.5vw;
+  transition-duration: 500ms;
 }
-
-/* General knowledge */
-#general {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(255, 94, 247, 1) 17.8%,
-    rgba(2, 245, 255, 1) 100.2%
-  );
+#topics-button:hover .arrow{
+  right:4.6vw;
 }
-
-#country-btn {
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(255, 94, 247, 1) 17.8%,
-    rgba(2, 245, 255, 1) 100.2%
-  );
-}
-
-#presidents-btn {
-  background-image: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
-}
-
-/* YouTube */
-#youtube{
-  background-image: linear-gradient(90deg, #FF0000 0%, #FF4500 100%);
-}
-
-#youtube-btn {
-  background-image: linear-gradient(90deg, #4285F4 0%, #00BFFF 100%);
-}
-
-/* Others */
-#others {
-  background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
-}
-
-#disney-btn {
-  background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
-}
-
-#fruit-btn {
-  background-image: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
-}
-
-#hwdyk-btn {
-  background-image: radial-gradient(
-    circle,
-    rgba(35, 218, 80, 1) 0%,
-    rgba(252, 0, 209, 1) 100%
-  );
-}
-
-#jaidenanimations-btn {
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+#topics-button:hover #topics-pointer{
+  left:4.7vw;
 }
