@@ -80,6 +80,12 @@ export class Quiz {
     console.log("Total Correct:", this.TOTAL_CORRECT);
   }
 
+  showTimeoutDialog() {
+    alert("Time's up!");
+
+    this._endGame();
+  }
+  
   checkAnswer(selected = 0, correct = 0) {
     const p = document.querySelector(`[data-number="${selected}"]`);
 
