@@ -9,24 +9,43 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <link rel="icon" type="image/x-icon" href="../../images/Youtube.ico" />
-
-    <title>Quiz Page - YouTube</title>
+    <link rel="icon" type="image/x-icon" href="../images/Main.ico" />
+    <title>Quiz Page - Main Game</title>
 
     <link rel="stylesheet" href="../../css/index.css" />
     <link rel="stylesheet" href="../../css/game.css" />
+    
+    <!-- Import the Timer module -->
     <script type="module" defer>
-      import { youtubeQA } from "../../js/data/index.js";
+      import { Timer } from "../../js/timer.js";
+      import { gameQA } from "../../js/data/index.js";
       import { Quiz } from "../../js/QuizClass.js";
+    
 
-      const QuizInstance = new Quiz(youtubeQA);
+      const QuizInstance = new Quiz(gameQA);
+
+      // Create a new Timer instance, setting 30 seconds as the limit
+      const timer = new Timer(30, 'timer', () => {
+        alert("Time's up! Moving to the next question.");
+        nextQuestion(); // Move to the next question when time is up
+      });
+
+      // Function to move to the next question
+      function nextQuestion() {
+        QuizInstance.nextQuestion(); // Call your quiz's logic to load the next question
+        timer.start(); // Restart the timer for the new question
+      }
+
+      // Start the quiz and the timer when the game starts
+      document.addEventListener("DOMContentLoaded", () => {
+        timer.start();
+      });
 
       document.addEventListener("click", (e) => {
         if (e.target.dataset.number) {
-          QuizInstance.checkAnswer(
-            +e.target.dataset.number,
-            QuizInstance.answer
-          );
+          // Stop the timer when the user selects an answer
+          timer.stop();
+          QuizInstance.checkAnswer(+e.target.dataset.number, QuizInstance.answer);
         }
       });
     </script>
@@ -45,14 +64,19 @@
           <div class="hud-item">
             <p class="hud-prefix">Score</p>
             <h1 class="hud-main-text" id="score">0</h1>
-            <p id="addPoints" class="hud-item"></p>
-            <p id="subPoints" class="hud-item">-100</p>
+          </div>
+          <!-- Timer HUD -->
+          <div class="hud-item">
+            <p class="hud-prefix">Time Left</p>
+            <h1 class="hud-main-text" id="timer">30s</h1>
           </div>
         </div>
+
+        <!-- Quiz content (questions and choices) -->
         <h1 id="question">What is the answer to this question</h1>
         <div class="choice-container">
           <p class="choice-prefix">A</p>
-          <p class="choice-text" data-number="1">Choice</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
         </div>
         <div class="choice-container">
           <p class="choice-prefix">B</p>
