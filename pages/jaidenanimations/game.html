@@ -9,15 +9,14 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <link rel="icon" type="image/x-icon" href="../../images/Youtube.ico" />
-
+    <link rel="icon" type="image/x-icon" href="../images/Main.ico" />
     <title>Quiz Page - Jaiden Animations</title>
 
-    <link rel="stylesheet" href="../../css/index.css" />
-    <link rel="stylesheet" href="../../css/game.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/game.css" />
     <script type="module" defer>
-      import { JaidenAnimationsQA } from "../../js/data/index.js";
-      import { Quiz } from "../../js/QuizClass.js";
+      import { JaidenAnimationsQA } from "/js/data/index.js";
+      import { Quiz } from "/js/QuizClass.js";
 
       const QuizInstance = new Quiz(JaidenAnimationsQA);
 
@@ -34,59 +33,82 @@
 
   <body>
     <div class="container">
-      <div id="game" class="justify-center flex-column">
+      <div id="topbanner-game">
         <div id="hud">
-          <div class="hud-item">
-            <p id="progressText" class="hud-prefix">Question</p>
-            <div id="progressBar">
-              <div id="progressBarFull"></div>
-            </div>
+        <div class="hud-item">
+          <div id="progressText-container"><p id="progressText" class="hud-prefix"></p></div>
+          <div id="progressBar">
+            <div id="progressBarFull"></div>
           </div>
-          <div class="hud-item">
-            <p class="hud-prefix">Score</p>
+        </div>
+        <div class="hud-item">
+          <p class="hud-prefix">Score:</p>
+          <div id="hud-main-text-container">
             <h1 class="hud-main-text" id="score">0</h1>
-            <p id="addPoints" class="hud-item"></p>
-            <p id="subPoints" class="hud-item">-100</p>
           </div>
-        </div>
-        <h1 id="question">What is the answer to this question</h1>
-        <div class="choice-container">
-          <p class="choice-prefix">A</p>
-          <p class="choice-text" data-number="1">Choice</p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">B</p>
-          <p class="choice-text" data-number="2">Choice 2</p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">C</p>
-          <p class="choice-text" data-number="3">Choice 3</p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">D</p>
-          <p class="choice-text" data-number="4">Choice 4</p>
+          <p id="addPoints" class="hud-item"></p>
+          <p id="subPoints" class="hud-item">-100</p>
+        </div> 
+      </div>
+      <div class="music">
+        <audio loop="loop" id="my_audio" preload="auto" autoplay>
+          <source id="audio_source" src="" type="audio/mpeg" />
+        </audio>
+        
+        <div class="music-container flex-center flex-row" id="music-container">
+          <a onclick="toggleMusic()" class="button1" id="button1">
+            <i
+              class="fas fa-light fa-volume-up"
+              id="musicOnButton"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a onclick="pauseMusic()" class="button2" id="button2">
+            <i
+              class="fas fa-light fa-volume-mute"
+              id="musicOffButton"
+              style="color: #ffffff"
+            ></i
+          ></a>
         </div>
       </div>
+      <a href="\index.html">
+        <i
+          class="fas fa-home"
+          id="house"
+        ></i
+        
+      ><div id="back-home"></div></a>
+      
+        
+    
     </div>
-    <div class="music">
-      <audio loop="loop" id="my_audio" preload="auto" autoplay>
-        <source id="audio_source" src="" type="audio/mpeg" />
-      </audio>
-
-      <div class="music-container flex-center flex-row">
-        <a
-          onclick="toggleMusic()"
-          class="button1"
-          id="musicOnButton"
-          style="display: none"
-        >
-          Music On <i class="fas fa-light fa-headphones"></i
-        ></a>
-        <a onclick="pauseMusic()" class="button2">
-          Music Off <i class="fas fa-light fa-volume-off"></i
-        ></a>
+      <div id="bottombanner-game">
+        <h1 id="bonne-chance-1">BONNE CHANCE!</h1>
+        <h1 id="bonne-chance-2">BONNE CHANCE!</h1>
       </div>
-    </div>
+      <div id="game" class="justify-center flex-column">
+        
+        <h1 id="question"></h1>
+        <div class="choice-container" >
+          <p class="choice-prefix">A.</p>
+          <p class="choice-text" data-number="1" ></p>
+        </div>
+        <div class="choice-container" id="choice-container-2" >
+          <p class="choice-prefix">B.</p>
+          <p class="choice-text" data-number="2" ></p>
+        </div>
+        <div class="choice-container"  id="choice-container-3">
+          <p class="choice-prefix">C.</p>
+          <p class="choice-text" data-number="3" ></p>
+        </div>
+        <div class="choice-container" id="choice-container-4">
+          <p class="choice-prefix">D.</p>
+          <p class="choice-text" data-number="4" ></p>
+        </div>
+      </div>
+      
+   
   </body>
   <script src="/js/songs.js"></script>
 </html>

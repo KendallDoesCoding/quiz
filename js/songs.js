@@ -14,7 +14,7 @@ var songs = [
 
   var audioElement = document.getElementById('my_audio');
   var musicOnButton = document.getElementById('musicOnButton');
-
+  var musicOffButton = document.getElementById('musicOffButton');
   function playMusic() {
     var randomIndex = Math.floor(Math.random() * songs.length);
     var audioSource = document.getElementById('audio_source');
@@ -27,16 +27,19 @@ var songs = [
         pauseMusic();
       });
       musicOnButton.style.display = 'none';
+      musicOffButton.style.display = 'block';
     }, { once: true });
 
     audioElement.addEventListener('pause', function() {
       musicOnButton.style.display = 'block';
+      musicOffButton.style.display = 'none';
     });
   }
 
   function pauseMusic() {
     audioElement.pause();
     musicOnButton.style.display = 'block';
+    musicOffButton.style.display = 'none';
   }
 
   function toggleMusic() {

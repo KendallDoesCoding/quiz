@@ -1,14 +1,476 @@
-body {
-  color: #fff;
-  user-select: none;
+#top-banner-highscores{
+  background-color: black;
+  position:absolute;
+  width:100%;
+  top:0;
+  height:5.5vw;
+}
+#house{
+  width:1vw;
+  height:1vw;
+  position: absolute;
+  top:1.9vw;
+  left:0.8vw;
+  font-size:2vw;
+  color:rgb(255, 255, 255);
+  z-index: 3;
+}
+#back-home{
+  background-color:rgb(43, 43, 43);
+  position: absolute;
+  top:1.4vw;
+  left:0.9vw;
+  width: 3vw;
+  height:3vw;
+  z-index: 2;
+  border-radius:0.3vw;
+}
+#Leaderboard{
+color:white;
+position: absolute;
+top:0.7vw;
+font-size:3.5vw;
+left:37.7vw;
+font-style: italic;
+z-index: 2;
+font-weight: lighter;
+text-shadow:
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff,
+0 0 42px rgb(255, 255, 255);
+}
+#highScoresList{
+  font-size:4vw;
+  z-index:6;
+  padding-top:5vw;
+}
+.high-score{
+  padding-bottom:1vw;
+}
+#highScoresList .high-score:first-child {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:39.5vw;
+  top:20.5vw; 
+  font-size:2.5vw;
+}
+#highScoresList .high-score:first-child .player-score {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  right:-18.7vw;
+  top:0.2vw; 
+  font-style: italic;
+  font-size:2.5vw;
+}
+#highScoresList .high-score:first-child .player-name {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:0vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:2.5vw;
+}
+#highScoresList .high-score:nth-child(2) {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:39.5vw;
+  top:24.8vw; 
+ font-size:2vw;
+}
+#highScoresList .high-score:nth-child(2) .player-score {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:12.5vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:2vw;
+}
+#highScoresList .high-score:nth-child(2) .player-name {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:0.3vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:2vw;
+}
+#highScoresList .high-score:nth-child(3) {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:39.5vw;
+  top:29.2vw; 
+   font-size:1.5vw;
+}
+#highScoresList .high-score:nth-child(3) .player-score {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:13vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:1.5vw;
+}
+#highScoresList .high-score:nth-child(3) .player-name {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:0.3vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:1.5vw;
+}
+#highScoresList .high-score:nth-child(4) {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:39.5vw;
+  top:33.4vw; 
+  font-size:1vw;
+}
+#highScoresList .high-score:nth-child(4) .player-score {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:14vw;
+  top:0.1vw; 
+  font-style: italic;
+  font-size:1vw;
+}
+#highScoresList .high-score:nth-child(4) .player-name {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:0.3vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:1vw;
+}
+#highScoresList .high-score:nth-child(5) {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:40vw;
+  top:37.6vw; 
+  font-size:0.8vw;
+}
+#highScoresList .high-score:nth-child(5) .player-score {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:13.8vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:0.8vw;
+}
+#highScoresList .high-score:nth-child(5) .player-name {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  position:absolute;
+  left:0.3vw;
+  top:0vw; 
+  font-style: italic;
+  font-size:0.8vw;
+  width:max-content;
+}
+#leaderboard-container{
+ 
+  position:absolute;
+  top:10vw;
+  left:35vw;
+  width:25vw;
+  height:35vw;
+  border-radius:1vw;
+  z-index:5;
+}
+#leaderboard-container-1{
+  background-color: #FFD700;
+  border-color: rgb(58, 58, 58);
+  border-style: solid;
+  position: absolute;
+  top:10vw;
+  left:0.7vw;
+  width:95%;
+  height:4vw;
+  z-index: 5;
+  box-shadow: 0.1vw 0.1vw 4vw rgb(255, 241, 52);
+}
+#leaderboard-container-2{
+  background-color: #C0C0C0;
+  border-color: rgb(58, 58, 58);
+  border-style: solid;
+  position: absolute;
+  top:14vw;
+  left:1.3vw;
+  width:90%;
+  height:4vw;
+  z-index: 4;
+  box-shadow: 0.1vw 0.1vw 4vw rgb(196, 196, 196);
+}
+#leaderboard-container-3{
+  background-color: #CD7F32;
+  border-color: rgb(58, 58, 58);
+  border-style: solid;
+  position: absolute;
+  top:18vw;
+  left: 1.9vw;
+  width:85%;
+  height:4vw;
+  z-index: 3;
+  box-shadow: 0.1vw 0.1vw 4vw rgb(179, 96, 19);
+}
+#leaderboard-container-4{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(58, 58, 58);
+  border-style: solid;
+  position: absolute;
+  top:22vw;
+  left:2.5vw;
+  width:80%;
+  height:4vw;
+  z-index: 2;
+  
+}
+#leaderboard-container-5{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(58, 58, 58);
+  border-style: solid;
+  position: absolute;
+  top:26vw;
+  left:3.1vw;
+  width:75%;
+  height:4vw;
+  z-index: 1;
+  
 }
 
-#highScoresList {
-  list-style: none;
-  margin-bottom: 4rem;
+#confetti-1{
+  width:0.6vw;
+  height:1vw;
+  background-color:pink;
+  position:absolute;
+  top:0.9vw;
+  left:1vw;
+  transform:rotate(-24deg)
+}
+#confetti-2{
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(113, 113, 255);
+  position:absolute;
+  top:0.4vw;
+  right:1vw;
+  transform:rotate(24deg)
+}
+#confetti-3{
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(255, 67, 98);
+  position:absolute;
+  top:0.6vw;
+  left:5vw;
+  transform:rotate(44deg)
+}
+#confetti-4{
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(99, 255, 107);
+  position:absolute;
+  top:0.5vw;
+  right:5vw;
+  transform:rotate(-68deg)
+}
+#confetti-5{
+  width:0.6vw;
+  height:1vw;
+  background-color:aqua;
+  position: absolute;
+  top:0.9vw;
+  right: 11vw;
+  transform:rotate(59deg)
+}
+#confetti-6{
+  width:0.6vw;
+  height:1vw;
+  background-color:pink;
+  position:absolute;
+  top:1.9vw;
+  right:2vw;
+  transform:rotate(-24deg)
+}
+#confetti-7{
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(113, 113, 255);
+  position:absolute;
+  top:1.9vw;
+  left:3vw;
+  transform:rotate(24deg)
+}
+#confetti-8{
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(255, 67, 98);
+  position:absolute;
+  top:2vw;
+  left:15vw;
+  transform:rotate(44deg)
+}
+#confetti-9{
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(99, 255, 107);
+  position:absolute;
+  top:2vw;
+  right:14vw;
+  transform:rotate(-68deg)
+}
+#confetti-thrower{
+  width:7vw;
+  height:3.5vw;
+  border-radius: 5.25vw 5.25vw 0 0;
+  background-color: orange;
+  position: absolute;
+  top:8.5vw;
+  left:47.5vw;
+  transform: translate(-50%, -50%);
+  
+}
+#confetti-thrower-semi-circle{
+  width:5vw;
+  height:5vw;
+  border-radius: 5vw 0 5vw 0;
+  background-color: rgb(99, 64, 0);
+  position: absolute;
+  top:7.6vw;
+  left:45vw;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transform:rotate(45deg)
+  
+}
+#svg {
+  width: 10vw;
+  height: 40vw; /* Adjust height as needed */
+  display: block;
+ position: absolute;
+ left:40vw;
+ transform:rotate(90deg);
+ top:-5.5vw;
+ z-index:3;
 }
 
-.high-score {
-  font-size: 2.8rem;
-  margin-bottom: 0.5rem;
+#path {
+  fill: none;
+  stroke: rgb(255, 87, 247);
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-dasharray: 750; /* Initial value of dash array */
+   /* Animation for the squiggly effect */
+   
+   
+}
+#svg1 {
+  width: 10vw;
+  height: 40vw; /* Adjust height as needed */
+  display: block;
+ position: absolute;
+ left:45vw;
+ transform:rotate(90deg);
+ top:-5.5vw;
+ z-index:3;
+}
+
+#path1 {
+  fill: none;
+  stroke: rgb(87, 249, 255);
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-dasharray: 750; /* Initial value of dash array */
+   /* Animation for the squiggly effect */
+   
+   
+}
+#svg2 {
+  width: 10vw;
+  height: 40vw; /* Adjust height as needed */
+  display: block;
+ position: absolute;
+ left:42.5vw;
+ transform:rotate(90deg);
+ top:-6.2vw;
+ z-index:3;
+}
+
+#path2 {
+  fill: none;
+  stroke: rgb(121, 255, 87);
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-dasharray: 750; /* Initial value of dash array */
+   /* Animation for the squiggly effect */
+   
+   
+}
+#confetti-thrower-1{
+  position:absolute;
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(113, 113, 255) ;
+  top: 14vw;
+  left:46vw;
+  transform: rotate(45deg);
+}
+#confetti-thrower-2{
+  position:absolute;
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(255, 67, 98);
+  top: 12vw;
+  left:48vw;
+  transform: rotate(-45deg);
+}
+#confetti-thrower-3{
+  position:absolute;
+  width:0.6vw;
+  height:1vw;
+  background-color:pink ;
+  top: 12vw;
+  left:43vw;
+  transform: rotate(45deg);
+}
+#confetti-thrower-4{
+  position:absolute;
+  width:0.6vw;
+  height:1vw;
+  background-color:rgb(99, 64, 0); ;
+  top: 12vw;
+  right:49vw;
+  transform: rotate(45deg);
+}
+.confetti-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  
+}
+.confetti {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-color: #f00; /* Initial color, will be overwritten */
+  border-radius: 50%;
+  animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+  }
 }

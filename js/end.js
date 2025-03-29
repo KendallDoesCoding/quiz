@@ -39,3 +39,4 @@ saveHighScore = (e) => {
 function goBack(n) {
   history.go(n);
 }
+
