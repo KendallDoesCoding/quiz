@@ -28,6 +28,27 @@
           );
         }
       });
+
+      const timerDuration = 30;
+
+      function startTimer() {
+        let timeLeft = timerDuration;
+        const timerElement = document.getElementById("timer");
+
+        const timerInterval = setInterval(() => {
+          timeLeft--;
+          timerElement.textContent = timeLeft;
+
+          if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            QuizInstance.showTimeoutDialog();
+          }
+        }, 1000);
+      }
+
+      
+
+      document.addEventListener("DOMContentLoaded", startTimer);
     </script>
   </head>
 
@@ -40,6 +61,10 @@
             <div id="progressBar">
               <div id="progressBarFull"></div>
             </div>
+          </div>
+          <div class="hud-item">
+            <p class="hud-prefix">Timer</p>
+            <h1 class="hud-main-text" id="timer">30</h1>
           </div>
           <div class="hud-item">
             <p class="hud-prefix">Score</p>
